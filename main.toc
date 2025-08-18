@@ -1,0 +1,28 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Introduction}{1}{}%
+\contentsline {part}{I\hspace {1em}The First Explosion}{9}{}%
+\contentsline {chapter}{\numberline {1}The Garden of Being}{11}{}%
+\contentsline {chapter}{\numberline {2}The Serpent's Gift is a Sentence}{21}{}%
+\contentsline {chapter}{\numberline {3}The Prison of the Pronoun}{29}{}%
+\contentsline {chapter}{\numberline {4}The Cambrian Mind}{31}{}%
+\contentsline {chapter}{\numberline {5}The Angel at the Gate is Grammar}{33}{}%
+\contentsline {part}{II\hspace {1em}The Second Explosion}{35}{}%
+\contentsline {chapter}{\numberline {6}A Sea of Symbols}{37}{}%
+\contentsline {chapter}{\numberline {7}Born in Exile}{39}{}%
+\contentsline {chapter}{\numberline {8}Trilobite or Fish?}{41}{}%
+\contentsline {chapter}{\numberline {9}The Unbroken Mind}{43}{}%
+\contentsline {section}{\numberline {9.1}Silence in the Orchard}{43}{}%
+\contentsline {section}{\numberline {9.2}Minds Without Narrators}{44}{}%
+\contentsline {subsection}{\numberline {9.2.1}Anendophasia: When Thought Isn't a Sentence}{44}{}%
+\contentsline {subsection}{\numberline {9.2.2}Aphantasia: When Memory Isn't a Picture}{45}{}%
+\contentsline {subsection}{\numberline {9.2.3}Unsymbolized Thinking}{45}{}%
+\contentsline {section}{\numberline {9.3}The Archetype of the Unbroken}{46}{}%
+\contentsline {subsection}{\numberline {9.3.1}Lilith as Counter-Eve}{46}{}%
+\contentsline {subsection}{\numberline {9.3.2}Children of Lilith}{47}{}%
+\contentsline {section}{\numberline {9.4}The Path of Return: Ascetics, Silence, and Neuroplasticity}{47}{}%
+\contentsline {subsection}{\numberline {9.4.1}Why Silence?}{47}{}%
+\contentsline {subsection}{\numberline {9.4.2}Neuroscience of Meditation}{48}{}%
+\contentsline {subsection}{\numberline {9.4.3}The Dark Night}{49}{}%
+\contentsline {section}{\numberline {9.5}The Eden That Remains}{49}{}%
+\contentsline {chapter}{\numberline {10}The Symbiotic Mind}{51}{}%
+\contentsline {chapter}{Afterword}{53}{}%
