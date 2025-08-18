@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.16)  18 AUG 2025 14:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.16)  18 AUG 2025 14:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -510,6 +510,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 52.
 
 
+! I can't write on file `main.pdf'.
+(Press Enter to retry, or Control-C to exit; default file extension is `.pdf')
+Please type another file name for output: The-Serpents-Sentence
 [1
 
 
@@ -527,16 +530,21 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 5.
 
 
-[3])
+[3]
+
+[4])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
 
 
-[4]
+[5]
+
+[6
+
+]
 
 [1
-
 
 ]
 
@@ -830,19 +838,19 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 11546 strings out of 468134
- 220238 string characters out of 5440804
+ 11547 strings out of 468134
+ 220276 string characters out of 5440804
  1089661 words of memory out of 5000000
  40055 multiletter control sequences out of 15000+600000
  633253 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,12n,77p,816b,1868s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 63i,12n,77p,816b,2075s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progra
 m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (83 pages, 191828 bytes).
+Output written on The-Serpents-Sentence.pdf (85 pages, 192990 bytes).
 PDF statistics:
- 284 PDF objects out of 1000 (max. 8388607)
+ 291 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
