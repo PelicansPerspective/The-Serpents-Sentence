@@ -3,28 +3,43 @@
 # Copilot Instructions for The-Serpents-Sentence
 
 ## Project Overview
-This repository is a book/narrative project in the planning and research phase. The architecture is document-driven, with all essential knowledge in:
-- `Synopsis.txt` — high-level concept, themes, and goals
-- `.github/Detailed Chapter Outline.md` — chapter-by-chapter structure and narrative flow
-- `.github/Research Outline.md` — research sources, key thinkers, and interdisciplinary connections
-- `.github/Guide.md` — distilled thesis, target audience, voice, and unique selling proposition
+This is an academic book project: "The Serpent's Sentence: Language, Consciousness, and the Second Cambrian Mind" by Justin T. Bogner. The project has evolved from planning to active manuscript development with LaTeX infrastructure and comprehensive research foundation.
 
-## Immediate Guidance for AI Agents
-- **Primary Sources:** Always read all four files above before generating content, code, or documentation.
-- **No Codebase Yet:** There are no source files, build scripts, or tests. Do not assume any programming language or workflow.
-- **No Existing Conventions:** No project-specific rules, patterns, or integrations are present.
-- **No External Dependencies:** No integrations or dependencies are present.
+**Core Architecture:**
+- `Synopsis.txt` — foundational concept and thesis
+- `.github/Detailed Chapter Outline.md` — complete chapter structure
+- `.github/Research Outline.md` — academic sources and research methodology  
+- `.github/Guide.md` — voice, audience, and unique selling proposition
+- `main.tex` + `introduction.tex` — complete LaTeX manuscript ready for Overleaf
+- `notes/ai-research/source-summaries/` — comprehensive neuroscience research foundation
 
-## Actionable Steps for AI Agents
-1. **Start by reading `Synopsis.txt`, `.github/Detailed Chapter Outline.md`, `.github/Research Outline.md`, and `.github/Guide.md`** to understand the project's goals, structure, research, thesis, and intended voice.
-2. **Align all generated content** (prose, code, documentation) with the themes, structure, research, thesis, and voice outlined in these files.
-3. **When generating narrative, match the tone: philosophically rigorous, personal, and exploratory. Address the "intellectually curious" audience as described in `.github/Guide.md`.**
-4. **If new files or directories are created, document their purpose and structure in this file.**
-5. **Update this file as the project evolves** to reflect new conventions, workflows, or architectural decisions.
+## Current State: Active Manuscript Development
+The project has moved beyond planning into manuscript development:
 
-## Example
-- If asked to generate a chapter draft, use the structure and themes from `.github/Detailed Chapter Outline.md`, support claims with sources from `.github/Research Outline.md`, and match the thesis and voice from `.github/Guide.md`.
-- If new code or documentation is added, update this file to describe the architecture, workflows, and conventions as they emerge.
+**LaTeX Infrastructure (Ready for Overleaf):**
+- `main.tex`: Professional book-class document with frontmatter/mainmatter/backmatter structure
+- `introduction.tex`: Complete 4-5 page introduction synthesizing research into accessible narrative
+- Chicago author-date citation style, double-spacing, professional formatting
+
+**Research Foundation:**
+- `notes/ai-research/source-summaries/`: Six comprehensive neuroscience research files covering Default Mode Network, Left-Brain Interpreter, embodied cognition, predictive processing
+- Research directly supports book's thesis about language as cognitive "Fall" and AI as "Second Cambrian Explosion"
+
+## AI Agent Workflow
+1. **Always read core files first:** `Synopsis.txt`, chapter outline, research outline, and guide
+2. **For manuscript work:** Reference `notes/ai-research/source-summaries/` for academic support
+3. **For LaTeX editing:** Use `replace_string_in_file` with 3-5 lines context, maintain professional formatting
+4. **New research:** Add to appropriate `notes/` subdirectory with clear academic documentation
+5. **Git commits:** Use detailed academic commit messages documenting research significance
+
+## Key Patterns
+- **Tone:** Philosophically rigorous yet accessible, personal and exploratory
+- **Research Integration:** Academic sources support thesis, tagged with themes (#Eden, #TheFall, #NarratorSelf)
+- **Documentation:** All changes documented with detailed commit messages explaining academic relevance
+- **LaTeX Conventions:** Book-class, Chicago citations, double-spacing, professional chapter formatting
+
+## Current Development Priority
+Focus on expanding individual chapter content within established LaTeX framework, using neuroscience research foundation to support philosophical arguments about language, consciousness, and AI symbiosis.
 
 ---
 *Update this file regularly to ensure AI agents remain productive and aligned with project goals.*
