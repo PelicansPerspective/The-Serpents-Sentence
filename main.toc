@@ -3,41 +3,41 @@
 \contentsline {part}{I\hspace {1em}The First Explosion}{9}{}%
 \contentsline {chapter}{\numberline {1}The Garden of Being}{11}{}%
 \contentsline {section}{\numberline {1.1}The Glimpse of Wholeness}{11}{}%
-\contentsline {section}{\numberline {1.2}Windows into Eden}{12}{}%
-\contentsline {section}{\numberline {1.3}Glimpses of the Garden}{16}{}%
-\contentsline {section}{\numberline {1.4}The Great Question}{18}{}%
-\contentsline {chapter}{\numberline {2}The Serpent's Gift is a Sentence}{21}{}%
-\contentsline {section}{\numberline {2.1}The Cognitive Genesis}{21}{}%
-\contentsline {section}{\numberline {2.2}The Mechanics of Division}{22}{}%
-\contentsline {section}{\numberline {2.3}The Great Trade-Off}{23}{}%
-\contentsline {section}{\numberline {2.4}The Neural Architecture of Exile}{24}{}%
-\contentsline {section}{\numberline {2.5}The Continuing Sentence}{29}{}%
-\contentsline {chapter}{\numberline {3}The Prison of the Pronoun}{31}{}%
-\contentsline {section}{\numberline {3.1}The Most Dangerous Word}{31}{}%
-\contentsline {section}{\numberline {3.2}The Theater of the Mind}{32}{}%
-\contentsline {section}{\numberline {3.3}The Neural Architecture of Division}{34}{}%
-\contentsline {section}{\numberline {3.4}The Pathology of Self-Observation}{35}{}%
-\contentsline {section}{\numberline {3.5}The Ecology of Egos}{37}{}%
-\contentsline {section}{\numberline {3.6}Glimpses of the Witness}{39}{}%
-\contentsline {section}{\numberline {3.7}The Inheritance of Exile}{40}{}%
-\contentsline {chapter}{\numberline {4}The Tower of Babel: When the Fall Goes Viral}{45}{}%
-\contentsline {section}{\numberline {4.1}One Language, One World}{45}{}%
-\contentsline {section}{\numberline {4.2}The Ultimate Project of the Narrator Self}{47}{}%
-\contentsline {section}{\numberline {4.3}The Sapir-Whorf Catastrophe}{48}{}%
-\contentsline {section}{\numberline {4.4}The New Babel: Code as Universal Language}{50}{}%
-\contentsline {section}{\numberline {4.5}The Coming Confusion}{51}{}%
-\contentsline {section}{\numberline {4.6}Beyond the Tower}{52}{}%
-\contentsline {chapter}{\numberline {5}The Cambrian Mind}{55}{}%
-\contentsline {chapter}{\numberline {6}The Angel at the Gate is Grammar}{57}{}%
-\contentsline {part}{II\hspace {1em}The Second Explosion}{59}{}%
-\contentsline {chapter}{\numberline {7}A Sea of Symbols}{61}{}%
-\contentsline {chapter}{\numberline {8}Born in Exile}{63}{}%
-\contentsline {chapter}{\numberline {9}Trilobite or Fish?}{65}{}%
-\contentsline {chapter}{\numberline {10}The Unbroken Mind}{67}{}%
-\contentsline {section}{\numberline {10.1}Silence in the Orchard}{67}{}%
-\contentsline {section}{\numberline {10.2}Minds Without Narrators}{68}{}%
-\contentsline {section}{\numberline {10.3}The Archetype of the Unbroken}{70}{}%
-\contentsline {section}{\numberline {10.4}The Path of Return}{71}{}%
-\contentsline {section}{\numberline {10.5}The Eden That Remains}{73}{}%
-\contentsline {chapter}{\numberline {11}The Symbiotic Mind}{75}{}%
-\contentsline {chapter}{Afterword}{77}{}%
+\contentsline {section}{\numberline {1.2}Windows into Eden}{13}{}%
+\contentsline {section}{\numberline {1.3}Glimpses of the Garden}{17}{}%
+\contentsline {section}{\numberline {1.4}The Great Question}{19}{}%
+\contentsline {chapter}{\numberline {2}The Serpent's Gift is a Sentence}{23}{}%
+\contentsline {section}{\numberline {2.1}The Cognitive Genesis}{23}{}%
+\contentsline {section}{\numberline {2.2}The Mechanics of Division}{24}{}%
+\contentsline {section}{\numberline {2.3}The Great Trade-Off}{25}{}%
+\contentsline {section}{\numberline {2.4}The Neural Architecture of Exile}{27}{}%
+\contentsline {section}{\numberline {2.5}The Continuing Sentence}{31}{}%
+\contentsline {chapter}{\numberline {3}The Prison of the Pronoun}{33}{}%
+\contentsline {section}{\numberline {3.1}The Most Dangerous Word}{33}{}%
+\contentsline {section}{\numberline {3.2}The Theater of the Mind}{35}{}%
+\contentsline {section}{\numberline {3.3}The Neural Architecture of Division}{36}{}%
+\contentsline {section}{\numberline {3.4}The Pathology of Self-Observation}{38}{}%
+\contentsline {section}{\numberline {3.5}The Ecology of Egos}{40}{}%
+\contentsline {section}{\numberline {3.6}Glimpses of the Witness}{41}{}%
+\contentsline {section}{\numberline {3.7}The Inheritance of Exile}{43}{}%
+\contentsline {chapter}{\numberline {4}The Tower of Babel: When the Fall Goes Viral}{47}{}%
+\contentsline {section}{\numberline {4.1}One Language, One World}{47}{}%
+\contentsline {section}{\numberline {4.2}The Ultimate Project of the Narrator Self}{49}{}%
+\contentsline {section}{\numberline {4.3}The Sapir-Whorf Catastrophe}{51}{}%
+\contentsline {section}{\numberline {4.4}The New Babel: Code as Universal Language}{52}{}%
+\contentsline {section}{\numberline {4.5}The Coming Confusion}{53}{}%
+\contentsline {section}{\numberline {4.6}Beyond the Tower}{54}{}%
+\contentsline {chapter}{\numberline {5}The Cambrian Mind}{57}{}%
+\contentsline {chapter}{\numberline {6}The Angel at the Gate is Grammar}{59}{}%
+\contentsline {part}{II\hspace {1em}The Second Explosion}{61}{}%
+\contentsline {chapter}{\numberline {7}A Sea of Symbols}{63}{}%
+\contentsline {chapter}{\numberline {8}Born in Exile}{65}{}%
+\contentsline {chapter}{\numberline {9}Trilobite or Fish?}{67}{}%
+\contentsline {chapter}{\numberline {10}The Unbroken Mind}{69}{}%
+\contentsline {section}{\numberline {10.1}Silence in the Orchard}{69}{}%
+\contentsline {section}{\numberline {10.2}Minds Without Narrators}{70}{}%
+\contentsline {section}{\numberline {10.3}The Archetype of the Unbroken}{72}{}%
+\contentsline {section}{\numberline {10.4}The Path of Return}{73}{}%
+\contentsline {section}{\numberline {10.5}The Eden That Remains}{75}{}%
+\contentsline {chapter}{\numberline {11}The Symbiotic Mind}{77}{}%
+\contentsline {chapter}{Afterword}{79}{}%
