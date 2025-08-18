@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.16)  18 AUG 2025 13:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.16)  18 AUG 2025 14:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -520,11 +520,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ] (main.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 14.
+(Font)              <12> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 14.
+(Font)              <8> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 14.
+(Font)              <6> on input line 5.
 
 
 [3])
@@ -565,17 +565,17 @@ Chapter 1.
 [11
 
 ]
-Overfull \hbox (10.11243pt too wide) in paragraph at lines 15--16
+
+[12]
+Overfull \hbox (10.11243pt too wide) in paragraph at lines 19--20
 \OT1/cmr/m/n/12 tally re-la-tional. In-fants ex-ist in what An-to-nio Dama-sio 
 calls the "proto-self"|awareness
  []
 
 
 
-[12]
-
 [13]
-Overfull \hbox (1.20834pt too wide) in paragraph at lines 27--28
+Overfull \hbox (1.20834pt too wide) in paragraph at lines 31--32
 \OT1/cmr/m/n/12 ing-ful, op-er-ates ac-cord-ing to dif-fer-ent prin-ci-ples tha
 n lin-guis-tic thought. It is grounded
  []
@@ -583,7 +583,7 @@ n lin-guis-tic thought. It is grounded
 
 
 [14]
-Overfull \hbox (34.91078pt too wide) in paragraph at lines 37--38
+Overfull \hbox (34.91078pt too wide) in paragraph at lines 41--42
 \OT1/cmr/m/n/12 takes on new mean-ing. The Gar-den rep-re-sents not a place but
  a state of be-ing|consciousness
  []
@@ -596,9 +596,9 @@ Overfull \hbox (34.91078pt too wide) in paragraph at lines 37--38
 
 [17]
 
-[18])
+[18]
 
-[19] (chapter-2-serpents-gift.tex
+[19]) (chapter-2-serpents-gift.tex
 
 [20]
 Chapter 2.
@@ -607,6 +607,9 @@ Chapter 2.
 [21
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [22]
 
@@ -618,122 +621,159 @@ Chapter 2.
 
 [26]
 
-[27])
-
-[28]
-Chapter 3.
+[27]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-[29
 
-]
+[28])
+
+[29]
 
 [30
 
 ]
-Chapter 4.
-
+Chapter 3.
+(chapter-4-tower-of-babel.tex
 
 [31]
 
 [32
 
 ]
-Chapter 5.
+Chapter 4.
 
 
 [33]
 
-[34
-
-]
+[34]
 
 [35]
 
 [36]
-Chapter 6.
 
+[37]
 
-[37
-
-]
-
-[38
-
-]
-Chapter 7.
-
+[38]
 
 [39]
 
-[40
+[40])
+
+[41]
+
+[42
+
+]
+Chapter 5.
+
+
+[43]
+
+[44
+
+]
+Chapter 6.
+
+
+[45]
+
+[46
+
+]
+
+[47]
+
+[48]
+Chapter 7.
+
+
+[49
+
+]
+
+[50
 
 ]
 Chapter 8.
 
 
-[41]
-\openout2 = `chapter-unbroken-mind.aux'.
+[51]
 
- (chapter-unbroken-mind.tex
-
-[42
-
+[52
 
 ]
 Chapter 9.
 
 
-[43]
-Underfull \vbox (badness 3343) has occurred while \output is active []
+[53]
+\openout2 = `chapter-unbroken-mind.aux'.
+
+ (chapter-unbroken-mind.tex
+
+[54
+
+
+]
+Chapter 10.
+
+
+[55]
+
+[56]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[44]
+[57]
 
-[45]
+[58]
 
-[46]
+[59]
+Overfull \hbox (3.83028pt too wide) in paragraph at lines 53--54
+[]\OT1/cmr/m/n/12 Neuroscientist Jud-son Brewer's re-search has re-vealed the s
+pe-cific neu-ral changes
+ []
 
-[47]
-Overfull \hbox (22.10165pt too wide) in paragraph at lines 67--68
-\OT1/cmr/m/n/12 sup-pressed De-fault Mode Net-work ac-tiv-ity and en-hanced gam
-ma wave syn-chrony|exactly
+
+Overfull \hbox (1.91084pt too wide) in paragraph at lines 57--58
+[]\OT1/cmr/m/n/12 But con-tem-pla-tive prac-tice also re-veals the chal-lenges 
+of ac-cess-ing pre-linguistic
  []
 
 
 
-[48]
+[60]
 
-[49])
+[61])
 
-[50]
-Chapter 10.
+[62]
+Chapter 11.
 
 
-[51
+[63
 
 
 
 ]
 
-[52
+[64
 
 ]
 \openout2 = `afterword.aux'.
 
  (afterword.tex
 
-[53
+[65
 
 
 ]
 
-[54])
+[66])
 
-[55]
+[67]
 
-LaTeX Warning: Empty bibliography on input line 147.
+LaTeX Warning: Empty bibliography on input line 149.
 
 (main.aux (chapter-unbroken-mind.aux) (afterword.aux))
  ***********
@@ -754,19 +794,19 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 11532 strings out of 468134
- 219685 string characters out of 5440804
- 1088568 words of memory out of 5000000
- 40047 multiletter control sequences out of 15000+600000
+ 11538 strings out of 468134
+ 219927 string characters out of 5440804
+ 1088660 words of memory out of 5000000
+ 40050 multiletter control sequences out of 15000+600000
  633253 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,12n,77p,816b,1868s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 63i,11n,77p,816b,1892s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progra
 m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (59 pages, 144560 bytes).
+Output written on main.pdf (71 pages, 166213 bytes).
 PDF statistics:
- 207 PDF objects out of 1000 (max. 8388607)
+ 245 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
