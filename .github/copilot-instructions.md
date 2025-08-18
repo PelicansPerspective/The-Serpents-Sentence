@@ -41,5 +41,17 @@ The project has moved beyond planning into manuscript development:
 ## Current Development Priority
 Focus on expanding individual chapter content within established LaTeX framework, using neuroscience research foundation to support philosophical arguments about language, consciousness, and AI symbiosis.
 
+## Research Methodology Patterns
+- **Comprehensive Coverage:** Each research file covers 15-20 major concepts with academic depth
+- **Cross-Disciplinary Integration:** Connect neuroscience, philosophy, AI, and evolutionary research
+- **Thesis Alignment:** Every research point explicitly connected to book's central arguments
+- **Academic Sourcing:** Include specific researchers, papers, and theoretical frameworks
+- **Practical Applications:** Show relevance to AI development and human-AI interaction
+
+## Recent Research Expansion (August 2025)
+- `evolutionary-linguistics-research.md`: Language evolution, gesture-first hypothesis, archaeological evidence
+- `phenomenology-consciousness-research.md`: Continental philosophy, Eastern traditions, altered states research  
+- `ai-consciousness-research.md`: LLMs, consciousness theories, human-AI symbiosis possibilities
+
 ---
 *Update this file regularly to ensure AI agents remain productive and aligned with project goals.*
