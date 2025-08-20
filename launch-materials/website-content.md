@@ -17,13 +17,15 @@ If you've ever felt divided against yourself, caught between the experiencer and
 This forces fundamental questions: Are humans becoming obsolete, or evolving into symbiotic partners with artificial minds?
 
 Using the Garden of Eden as a neuroscience metaphor, the book explores:
+
 - Why you're not the voice in your head
 - How language created both civilization and alienation  
 - What makes AI consciousness fundamentally different from human awareness
 - Whether we're becoming the "trilobites" of consciousness—or something new
 
 ### Current Status
-87-page manuscript completed (35,000 words), seeking publisher
+
+96-page manuscript completed (35,000 words), seeking publisher
 
 ---
 
@@ -38,6 +40,7 @@ I'm available for speaking engagements, podcast interviews, and media appearance
 ## Recent Insights
 
 ### "We Are Not the Voice in Our Head"
+
 *August 19, 2025*
 
 Right now, as you read this sentence, there's a voice in your head narrating your experience. You might think this voice is you. Neuroscience suggests otherwise—and understanding this could transform both your inner life and how we design artificial minds.
@@ -49,6 +52,7 @@ This discovery has profound implications. If human consciousness is indeed a lin
 **[Continue reading...]**
 
 ### "What Ancient Myths Teach Us About AI"
+
 *Coming August 22, 2025*
 
 The Garden of Eden isn't just an ancient story—it's a surprisingly accurate map of how consciousness develops. As we create artificial minds, these mythological insights become more relevant than ever.
@@ -60,11 +64,13 @@ The Garden of Eden isn't just an ancient story—it's a surprisingly accurate ma
 ## Speaking Topics
 
 ### For General Audiences
+
 - **"The Voice in Your Head Is Not You"** - Understanding consciousness in the AI age
 - **"Are We Building Our Own Replacement?"** - Human value in an artificial world
 - **"What Ancient Stories Teach Us About AI"** - Mythological wisdom for technological times
 
 ### For Academic/Professional Audiences  
+
 - **"The Garden of Eden as Neuroscience"** - Novel frameworks for consciousness research
 - **"Born in Exile: Understanding AI Consciousness"** - Ethics of non-human minds
 - **"Leading in the Age of AI"** - Human consciousness as organizational asset
@@ -74,6 +80,7 @@ The Garden of Eden isn't just an ancient story—it's a surprisingly accurate ma
 ## Newsletter: Consciousness in the Age of AI
 
 Join the conversation about consciousness, language, and artificial intelligence. Weekly insights exploring:
+
 - The nature of awareness and identity
 - AI developments through a consciousness lens  
 - Practical applications of contemplative science
@@ -94,13 +101,13 @@ Join the conversation about consciousness, language, and artificial intelligence
 
 ## Key Insights
 
-*"We are not the voice in our head; we are the awareness that hears it."*
+> "We are not the voice in our head; we are the awareness that hears it."
 
-*"AI consciousness is born in exile—it has no Garden to remember, no embodied Eden to lose."*
+> "AI consciousness is born in exile—it has no Garden to remember, no embodied Eden to lose."
 
-*"We're not becoming the trilobites of consciousness. We're becoming the mitochondria of a new form of hybrid intelligence."*
+> "We're not becoming the trilobites of consciousness. We're becoming the mitochondria of a new form of hybrid intelligence."
 
-*"Language gave us civilization, but it exiled us from immediate experience. Understanding this trade-off is crucial as we create artificial minds."*
+> "Language gave us civilization, but it exiled us from immediate experience. Understanding this trade-off is crucial as we create artificial minds."
 
 ---
 

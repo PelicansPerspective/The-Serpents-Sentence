@@ -3,25 +3,27 @@
 # Copilot Instructions for The-Serpents-Sentence
 
 ## Project Overview
-This is an academic book project: "The Serpent's Sentence: Language, Consciousness, and the Second Cambrian Mind" by Justin T. Bogner. The project has evolved from planning to a complete professional ecosystem including manuscript development, promotional materials, and article portfolio for academic and conference presentation.
+This is an academic book project: "The Serpent's Sentence: Language, Consciousness, and the Second Cambrian Mind" by Justin T. Bogner. The project has evolved into a complete professional ecosystem including manuscript development, promotional materials, launch strategy, and article portfolio for academic and conference presentation.
 
 **Core Architecture:**
 - `Synopsis.txt` — foundational concept and thesis
 - `.github/Detailed Chapter Outline.md` — complete chapter structure
 - `.github/Research Outline.md` — academic sources and research methodology  
 - `.github/Guide.md` — voice, audience, and unique selling proposition
-- `main.tex` + `introduction.tex` — complete LaTeX manuscript ready for Overleaf
+- `Manuscript/` — complete LaTeX manuscript files organized in dedicated directory
 - `notes/ai-research/source-summaries/` — comprehensive neuroscience research foundation
 - `articles/` — professional article portfolio with dual-format publishing system
+- `launch-materials/` — website content, social media strategy, and action plans
 - `public-website-package/` — privacy-safe promotional website for public deployment
 
 ## Current State: Complete Professional Ecosystem
 The project has achieved comprehensive development across multiple publication channels:
 
 **LaTeX Infrastructure (Compiled and Consistent):**
-- `main.tex`: Professional book-class document (87 pages compiled successfully)
-- `introduction.tex`: Complete provocative introduction with vivid Garden metaphor and engaging hooks
-- Five complete chapters with unified structure: sections only, no subsections
+- `Manuscript/main.tex`: Professional book-class document (96 pages compiled successfully)
+- `Manuscript/introduction.tex`: Complete provocative introduction with vivid Garden metaphor and engaging hooks
+- Six complete chapters with unified structure: sections only, no subsections
+- `Manuscript/compile-manuscript.ps1`: PowerShell script for automated compilation
 - Chicago author-date citation style, double-spacing, professional formatting
 
 **Article Portfolio System (16,500+ words, dual-format publishing):**
@@ -43,6 +45,7 @@ The project has achieved comprehensive development across multiple publication c
 - Chapter 3: "The Prison of the Pronoun" - Narrator self creation through engaging metaphors
 - Chapter 4: "The Tower of Babel" - Social scaling of Fall with compelling mythological framework
 - Chapter 10: "The Unbroken Mind" - Neurodiversity and contemplative consciousness through Garden lens
+- **Afterword**: Personal reflection on the author's journey and insights into AI consciousness
 - All chapters follow consistent section-only structure with vivid, engaging prose
 
 **Research Foundation:**
@@ -56,9 +59,12 @@ The project has achieved comprehensive development across multiple publication c
 3. **For LaTeX editing:** Use `replace_string_in_file` with 3-5 lines context, maintain professional formatting
 4. **For article work:** Edit markdown in `articles/*.md`, then regenerate LaTeX versions with TikZ graphics
 5. **For PDF compilation:** Use PowerShell script `.\compile-pdfs.ps1` in `articles/latex/` directory (requires XeLaTeX)
-6. **For website deployment:** Use `public-website-package/` for GitHub Pages (privacy-safe, no manuscript content)
-7. **New research:** Add to appropriate `notes/` subdirectory with clear academic documentation
-8. **Git commits:** Use detailed academic commit messages documenting research significance
+6. **For manuscript compilation:** Use PowerShell script `.\compile-manuscript.ps1` in `Manuscript/` directory
+7. **For website content:** Update `launch-materials/website-content.md` for website copy
+8. **For launch planning:** Update `launch-materials/social-media-launch.md` and `launch-materials/week-1-action-plan.md`
+9. **For website deployment:** Use `public-website-package/` for GitHub Pages (privacy-safe, no manuscript content)
+10. **New research:** Add to appropriate `notes/` subdirectory with clear academic documentation
+11. **Git commits:** Use detailed academic commit messages documenting research significance
 
 ## Key Patterns
 - **Tone:** Philosophically rigorous yet accessible, personal and exploratory—**use vivid metaphors, rich imagery, and poetic language to make complex ideas come alive**
@@ -97,13 +103,14 @@ The project has achieved comprehensive development across multiple publication c
 Five chapters completed with consistent vivid style. Focus on expanding remaining chapters (5-9, 11) using established patterns: sections-only organization, philosophical rigor, research integration, and **provocative, immersive prose that brings abstract concepts to life through rich Garden of Eden metaphor and engaging storytelling**.
 
 ## Progress Tracking (August 2025)
-- ✅ **87-page compiled PDF** with professional formatting and engaging prose
+- ✅ **96-page compiled PDF** with professional formatting and engaging prose
 - ✅ **Provocative introduction** that hooks readers with direct consciousness exploration  
 - ✅ **Five complete chapters** with unified Garden narrative and vivid metaphorical language
 - ✅ **Complete article portfolio** with 16,500+ words across 5 major topics
 - ✅ **Professional LaTeX formatting** with enhanced TikZ graphics containing research data
 - ✅ **PDF compilation system** via PowerShell automation in `articles/latex/` directory
 - ✅ **Privacy-safe promotional website** ready for GitHub Pages deployment
+- ✅ **Launch materials** with website content, social media strategy, and action plans
 - ✅ **Enhanced Copilot instructions** ensuring consistent engaging academic style
 - 🔄 **Remaining chapters 5-9, 11** ready for development using established vivid prose patterns
 - ⏳ **Bibliography integration** and citation cleanup for final academic polish

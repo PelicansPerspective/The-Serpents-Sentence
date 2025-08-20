@@ -12,7 +12,7 @@
 
 *The most dangerous word in any language is "I." It creates the fundamental divide in human consciousness—and reveals why artificial intelligence, no matter how sophisticated, will never experience what we call selfhood.*
 
-Right now, as you read this sentence, there's a voice in your head. It's narrating your experience, perhaps commenting on these words, maybe wondering where this is going. You've lived with this voice so long you probably think it's you. 
+Right now, as you read this sentence, there's a voice in your head. It's narrating your experience, perhaps commenting on these words, maybe wondering where this is going. You've lived with this voice so long you probably think it's you.
 
 Here's the unsettling truth: it's not.
 

@@ -19,14 +19,14 @@ This directory contains all the manuscript files for "The Serpent's Sentence: La
 ### Windows
 To compile the manuscript, run the provided PowerShell script:
 
-```
+```powershell
 .\compile-manuscript.ps1
 ```
 
 ### Manual Compilation
 If you prefer to compile manually, run the following commands:
 
-```
+```bash
 pdflatex main.tex
 biber main
 pdflatex main.tex
