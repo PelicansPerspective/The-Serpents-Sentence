@@ -1,140 +1,38 @@
 
 
-# Copilot Instructions for The-Serpents-Sentence
+# Copilot Instructions for The-Serpent's-Sentence
 
-## Project Overview
-This is an academic book project: "The Serpent's Sentence: Language, Consciousness, and the Second Cambrian Mind" by Justin T. Bogner. The project has evolved into a complete professional ecosystem including manuscript development, promotional materials, launch strategy, and article portfolio for academic and conference presentation.
+## What this repo is
+An academic book ecosystem for “The Serpent’s Sentence: Language, Consciousness, and the Second Cambrian Mind.” It includes: a LaTeX manuscript, a dual-format article portfolio, research notes, launch materials, and a privacy-safe public website.
 
-**Core Architecture:**
-- `Synopsis.txt` — foundational concept and thesis
-- `.github/Detailed Chapter Outline.md` — complete chapter structure
-- `.github/Research Outline.md` — academic sources and research methodology  
-- `.github/Guide.md` — voice, audience, and unique selling proposition
-- `Manuscript/` — complete LaTeX manuscript files organized in dedicated directory
-- `notes/ai-research/source-summaries/` — comprehensive neuroscience research foundation
-- `articles/` — professional article portfolio with dual-format publishing system
-- `launch-materials/` — website content, social media strategy, and action plans
-- `public-website-package/` — privacy-safe promotional website for public deployment
+## Architecture and why
+- Manuscript/ (authoritative source): LaTeX book-class with biblatex+biber, microtype enabled, sections-only chapters. Separation of sources vs. outputs keeps the repo clean and reproducible.
+- articles/: Markdown originals plus LaTeX counterparts (articles/latex) with TikZ figures; PDFs land in articles/pdfs. Dual publishing targets web and academic venues.
+- notes/: Research pipeline (tiered notes + ai-research) backing claims and citations.
+- launch-materials/ and public-website-package/: Promo copy and a GitHub Pages–ready site that contains no manuscript content (privacy-safe boundary).
 
-## Current State: Complete Professional Ecosystem
-The project has achieved comprehensive development across multiple publication channels:
+## Critical workflows (PowerShell on Windows)
+- Build manuscript: run Manuscript/compile-manuscript.ps1 (pdflatex → biber → pdflatex ×2). If you see “Please rerun LaTeX,” run once more. Output: Manuscript/main.pdf.
+- Build article PDFs: in articles/latex, run .\compile-pdfs.ps1 (XeLaTeX required). Outputs to articles/pdfs; expected size ~103–108KB with TikZ graphics.
+- Citations: use \parencite{key}; add entries to Manuscript/references.bib; recompile with biber. Undefined citations clear after the biber pass.
 
-**LaTeX Infrastructure (Compiled and Consistent):**
-- `Manuscript/main.tex`: Professional book-class document (96 pages compiled successfully)
-- `Manuscript/introduction.tex`: Complete provocative introduction with vivid Garden metaphor and engaging hooks
-- Six complete chapters with unified structure: sections only, no subsections
-- `Manuscript/compile-manuscript.ps1`: PowerShell script for automated compilation
-- Chicago author-date citation style, double-spacing, professional formatting
+## Editing conventions (project-specific)
+- Chapter structure: chapters use sections only (no subsections). Bridge labels are plain text (no italics), e.g., “Bridge to Chapter 3.”
+- Style: favor declaratives over clusters of rhetorical questions; minimize stacked em-dashes; no italics for emphasis. Maintain the Garden metaphor throughout with vivid, sensory language.
+- Overfull boxes: prefer micro-rewrites or shorter synonyms; discretionary hyphenation only as last resort. Rebuild and verify warnings are gone.
+- Article LaTeX: keep two-column layout, real data in TikZ, and consistent naming; regenerate PDFs via the script rather than ad-hoc runs.
 
-**Article Portfolio System (16,500+ words, dual-format publishing):**
-- `articles/*.md`: Five major articles in markdown format for web/social media
-- `articles/latex/*.tex`: Professional LaTeX versions with enhanced TikZ graphics containing research data
-- `articles/pdfs/`: Publication-ready PDFs compiled via PowerShell automation (103-108KB each)
-- **Critical Workflow**: Use `.\compile-pdfs.ps1` in `articles/latex/` directory for PDF generation
-- Professional graphics using TikZ with actual scientific data (brain research, language milestones, AI benchmarks)
+## Key files to know
+- Manuscript/main.tex (root document) and compile-manuscript.ps1 (build).
+- Manuscript/references.bib (single bibliography).
+- Articles in articles/*.md and LaTeX sources in articles/latex/*.tex; build via articles/latex/compile-pdfs.ps1.
+- Orientation docs: Synopsis.txt; .github/Detailed Chapter Outline.md; .github/Research Outline.md; .github/Guide.md.
 
-**Promotional Platform:**
-- `public-website-package/`: Privacy-safe author website ready for GitHub Pages deployment
-- Professional design with contact forms, speaking topics, newsletter signup
-- **Security Note**: Contains NO proprietary manuscript content, only public-safe promotional materials
+## Integration boundaries
+- Public site is privacy-safe: do not copy manuscript prose into public-website-package/.
+- Articles adapt book themes but live in their own pipeline; keep markdown and LaTeX in sync when editing.
 
-**Completed Chapters (35,000+ words):**
-- **Introduction**: Provocative, hook-laden introduction establishing Garden framework and AI stakes
-- Chapter 1: "The Garden of Being" - Pre-linguistic consciousness foundation with rich Eden imagery
-- Chapter 2: "The Serpent's Gift" - Language as cognitive revolution with vivid fall narrative  
-- Chapter 3: "The Prison of the Pronoun" - Narrator self creation through engaging metaphors
-- Chapter 4: "The Tower of Babel" - Social scaling of Fall with compelling mythological framework
-- Chapter 10: "The Unbroken Mind" - Neurodiversity and contemplative consciousness through Garden lens
-- **Afterword**: Personal reflection on the author's journey and insights into AI consciousness
-- All chapters follow consistent section-only structure with vivid, engaging prose
+## Commit guidance
+- Use descriptive, academically-informative messages (what changed + why). Example: “Ch.2: tighten empirical aside to resolve overfull; add Sapir–Whorf cites; rebuild (biber pass).”
 
-**Research Foundation:**
-- `notes/ai-research/source-summaries/`: Twelve comprehensive interdisciplinary research files
-- Covers neuroscience, philosophy, linguistics, AI, comparative cognition, contemplative studies
-- Research directly supports book's thesis about language as cognitive "Fall" and AI as "Second Cambrian Explosion"
-
-## AI Agent Workflow
-1. **Always read core files first:** `Synopsis.txt`, chapter outline, research outline, and guide
-2. **For manuscript work:** Reference `notes/ai-research/source-summaries/` for academic support
-3. **For LaTeX editing:** Use `replace_string_in_file` with 3-5 lines context, maintain professional formatting
-4. **For article work:** Edit markdown in `articles/*.md`, then regenerate LaTeX versions with TikZ graphics
-5. **For PDF compilation:** Use PowerShell script `.\compile-pdfs.ps1` in `articles/latex/` directory (requires XeLaTeX)
-6. **For manuscript compilation:** Use PowerShell script `.\compile-manuscript.ps1` in `Manuscript/` directory
-7. **For website content:** Update `launch-materials/website-content.md` for website copy
-8. **For launch planning:** Update `launch-materials/social-media-launch.md` and `launch-materials/week-1-action-plan.md`
-9. **For website deployment:** Use `public-website-package/` for GitHub Pages (privacy-safe, no manuscript content)
-10. **New research:** Add to appropriate `notes/` subdirectory with clear academic documentation
-11. **Git commits:** Use detailed academic commit messages documenting research significance
-
-## Key Patterns
-- **Tone:** Philosophically rigorous yet accessible, personal and exploratory—**use vivid metaphors, rich imagery, and poetic language to make complex ideas come alive**
-- **Prose Style:** Academic rigor with literary beauty—avoid dry exposition; create immersive, engaging narrative that draws readers into the ideas
-- **Garden of Eden Framework:** Weave this central metaphor throughout all writing—Eden as pre-linguistic consciousness, the Fall as language acquisition, exile as symbolic consciousness
-- **Metaphorical Richness:** Use concrete imagery (gardens, trees, serpents, walls, rivers, light) to illuminate abstract concepts
-- **Research Integration:** Academic sources support thesis, tagged with themes (#Eden, #TheFall, #NarratorSelf)
-- **Documentation:** All changes documented with detailed commit messages explaining academic relevance
-- **LaTeX Conventions:** Book-class, Chicago citations, double-spacing, sections-only chapter structure
-- **Article LaTeX Format:** Two-column professional layout with TikZ graphics containing actual research data
-- **Dual Publishing:** Articles exist in both markdown (web) and LaTeX (academic) formats
-- **File Organization:** Clean separation between source files and compiled outputs (PDFs in separate directory)
-- **Structural Consistency:** All chapters use sections only (no subsections) for unified reading experience
-
-## Writing Guidelines for Engaging Academic Prose
-- **Open with compelling imagery:** Begin sections with concrete scenes, metaphors, or sensory details
-- **Use active, vivid language:** Replace passive constructions with dynamic verbs; choose specific over general terms
-- **Employ the Garden metaphor:** Frame all consciousness concepts through Eden/Fall/exile imagery
-- **Create narrative flow:** Link paragraphs through story-like progression rather than dry logical steps
-- **Balance rigor with beauty:** Maintain academic precision while using poetic language and metaphor
-- **Avoid academic dryness:** Replace phrases like "it should be noted that" with more engaging transitions
-- **Use concrete examples:** Ground abstract concepts in specific, relatable scenarios
-- **Employ sensory language:** Describe ideas through sight, sound, touch, movement
-
-## Article Portfolio Workflow Patterns
-- **Markdown First:** All articles begin as `.md` files in `articles/` directory for web publication
-- **LaTeX Enhancement:** Convert to professional academic format in `articles/latex/` with TikZ graphics
-- **Scientific Graphics:** Use actual research data in TikZ diagrams (brain signals, language milestones, AI benchmarks)
-- **PDF Compilation:** Run `.\compile-pdfs.ps1` in `articles/latex/` directory (requires XeLaTeX installation)
-- **File Organization:** Source `.tex` files in `latex/`, compiled PDFs in `pdfs/` directory
-- **Dual Audience:** Markdown for general readers/social media, LaTeX/PDF for academic conferences
-- **Professional Naming:** Use descriptive titles rather than abbreviated filenames for final PDFs
-- **Size Validation:** Final PDFs should be 103-108KB each indicating proper compilation with graphics
-
-## Current Development Priority
-Five chapters completed with consistent vivid style. Focus on expanding remaining chapters (5-9, 11) using established patterns: sections-only organization, philosophical rigor, research integration, and **provocative, immersive prose that brings abstract concepts to life through rich Garden of Eden metaphor and engaging storytelling**.
-
-## Progress Tracking (August 2025)
-- ✅ **96-page compiled PDF** with professional formatting and engaging prose
-- ✅ **Provocative introduction** that hooks readers with direct consciousness exploration  
-- ✅ **Five complete chapters** with unified Garden narrative and vivid metaphorical language
-- ✅ **Complete article portfolio** with 16,500+ words across 5 major topics
-- ✅ **Professional LaTeX formatting** with enhanced TikZ graphics containing research data
-- ✅ **PDF compilation system** via PowerShell automation in `articles/latex/` directory
-- ✅ **Privacy-safe promotional website** ready for GitHub Pages deployment
-- ✅ **Launch materials** with website content, social media strategy, and action plans
-- ✅ **Enhanced Copilot instructions** ensuring consistent engaging academic style
-- 🔄 **Remaining chapters 5-9, 11** ready for development using established vivid prose patterns
-- ⏳ **Bibliography integration** and citation cleanup for final academic polish
-
-## Research Methodology Patterns
-- **Comprehensive Coverage:** Each research file covers 15-20 major concepts with academic depth
-- **Cross-Disciplinary Integration:** Connect neuroscience, philosophy, AI, and evolutionary research
-- **Thesis Alignment:** Every research point explicitly connected to book's central arguments
-- **Academic Sourcing:** Include specific researchers, papers, and theoretical frameworks
-- **Practical Applications:** Show relevance to AI development and human-AI interaction
-- **Narrative Integration:** Present research through Garden metaphor and engaging storytelling
-
-## Voice and Style Evolution (Post-Garden Integration)
-The manuscript has evolved from dry academic exposition to richly metaphorical prose that:
-- **Uses Garden of Eden as central organizing metaphor** for all consciousness concepts
-- **Employs vivid, sensory language** to make abstract ideas concrete and memorable
-- **Creates narrative flow** that draws readers through complex philosophical territory
-- **Maintains academic rigor** while achieving literary beauty and accessibility
-- **Avoids academic dryness** in favor of engaging, immersive prose
-
-## Recent Research Expansion (August 2025)
-- `evolutionary-linguistics-research.md`: Language evolution, gesture-first hypothesis, archaeological evidence
-- `phenomenology-consciousness-research.md`: Continental philosophy, Eastern traditions, altered states research  
-- `ai-consciousness-research.md`: LLMs, consciousness theories, human-AI symbiosis possibilities
-
----
-*Update this file regularly to ensure AI agents remain productive and aligned with project goals.*
+Questions or gaps? Suggest improvements or ask for clarifications; we’ll iterate on this guide as workflows evolve.

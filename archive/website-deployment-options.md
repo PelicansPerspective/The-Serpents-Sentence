@@ -1,7 +1,8 @@
 # Private Repository Strategy - Website Options
 
 You're absolutely correct! Your repository contains:
-- Complete 87-page manuscript 
+
+- Complete 87-page manuscript
 - Proprietary research notes
 - Academic source materials
 - Detailed chapter outlines
@@ -12,20 +13,23 @@ Making this public would expose all your intellectual property. Here are better 
 
 Create a NEW public repository just for your website:
 
-### Setup Steps:
+### Setup Steps
+
 1. Create new repository: `JustinTBogner-Website` (or similar)
-2. Make it PUBLIC 
+2. Make it PUBLIC
 3. Copy only the website files (no manuscript content)
 4. Enable GitHub Pages on the new repo
 
-### What Gets Public:
+### What Gets Public
+
 - Professional author website
 - Book description (not full content)
 - Speaking topics
 - Contact information
 - General insights/quotes
 
-### What Stays Private:
+### What Stays Private
+
 - Full manuscript
 - Research notes  
 - Chapter outlines
@@ -35,6 +39,7 @@ Create a NEW public repository just for your website:
 ## Option 2: Static Website Hosting Services
 
 Deploy your website to:
+
 - **Netlify** (free tier, easy deployment)
 - **Vercel** (free for personal use)  
 - **GitHub Pages** from a separate public repo
@@ -50,6 +55,7 @@ Deploy your website to:
 ## Immediate Action Plan
 
 I'll create a separate website-only package that includes:
+
 - Clean website files
 - No manuscript content
 - Professional author platform
@@ -58,6 +64,7 @@ I'll create a separate website-only package that includes:
 This protects your IP while establishing your professional presence.
 
 Would you like me to:
+
 1. Create a website-only package for separate deployment?
 2. Set up instructions for a new public repository?
 3. Provide alternative hosting options?

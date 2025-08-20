@@ -17,6 +17,7 @@ This directory contains all the manuscript files for "The Serpent's Sentence: La
 ## Compiling the Manuscript
 
 ### Windows
+
 To compile the manuscript, run the provided PowerShell script:
 
 ```powershell
@@ -24,6 +25,7 @@ To compile the manuscript, run the provided PowerShell script:
 ```
 
 ### Manual Compilation
+
 If you prefer to compile manually, run the following commands:
 
 ```bash

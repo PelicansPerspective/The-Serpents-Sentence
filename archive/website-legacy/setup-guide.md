@@ -2,16 +2,18 @@
 
 ## Option 1: GitHub Pages (Free & Simple)
 
-### Advantages:
+### Advantages
+
 - **Free hosting**
 - **Version control integrated**
 - **Professional domain possible**
 - **Easy updates via git**
 - **Markdown-based content**
 
-### Setup Steps:
+### Setup Steps
 
 #### Step 1: Create GitHub Pages Repository
+
 ```bash
 # In your existing repo, create docs folder for GitHub Pages
 mkdir docs
@@ -19,14 +21,17 @@ cd docs
 ```
 
 #### Step 2: Choose Theme
+
 - Use Jekyll theme like "Minimal Mistakes" or "Academic"
 - Or simple HTML/CSS for custom design
 
 #### Step 3: Configure Domain
+
 - Purchase domain: JustinTBogner.com or TheSerpentsSentence.com
 - Point to GitHub Pages in repository settings
 
 #### Step 4: Content Structure
+
 ```
 docs/
 ├── index.html (or index.md)
@@ -43,33 +48,39 @@ docs/
 
 ## Option 2: WordPress.com (Recommended for Non-Technical)
 
-### Advantages:
+### Advantages
+
 - **Professional templates**
 - **Built-in blog functionality**
 - **Easy content management**
 - **SEO optimization**
 - **Plugin ecosystem**
 
-### Setup Steps:
+### Setup Steps
 
 #### Step 1: Choose Plan
+
 - **Personal Plan ($4/month):** Custom domain, remove ads
 - **Premium Plan ($8/month):** Advanced design, monetization
 - **Business Plan ($25/month):** Plugins, advanced SEO
 
 #### Step 2: Domain Selection
+
 - Primary: JustinTBogner.com
 - Alternative: TheSerpentsSentence.com
 - Alternative: GardenOfBeing.com
 
 #### Step 3: Theme Selection
+
 **Recommended Themes:**
+
 - **Astra:** Clean, fast, highly customizable
 - **Neve:** Modern, responsive, good for authors
 - **GeneratePress:** Lightweight, professional
 - **Twenty Twenty-Four:** WordPress default, reliable
 
 #### Step 4: Essential Pages Setup
+
 1. **Home Page:** Welcome + book overview
 2. **About:** Author bio + credentials
 3. **The Book:** Detailed book information
@@ -81,23 +92,27 @@ docs/
 
 ## Option 3: Squarespace (Premium & Professional)
 
-### Advantages:
+### Advantages
+
 - **Beautiful templates**
 - **Drag-and-drop design**
 - **Integrated e-commerce**
 - **Professional appearance**
 - **Built-in analytics**
 
-### Setup Steps:
+### Setup Steps
 
 #### Step 1: Choose Template
+
 **Recommended for Authors:**
+
 - **Bedford:** Clean, blog-focused
 - **Pacific:** Modern, visual
 - **Forte:** Portfolio-style
 - **Avenue:** Professional, business-focused
 
 #### Step 2: Pricing
+
 - **Personal ($12/month):** Basic website
 - **Business ($18/month):** Professional features
 - **Commerce ($26/month):** If selling books directly
@@ -109,16 +124,19 @@ docs/
 **Why WordPress.com is ideal for your launch:**
 
 ### 1. **Quick Setup (Today)**
+
 - Choose theme and customize in 2-3 hours
 - Content can be uploaded immediately
 - Professional appearance without coding
 
 ### 2. **Content Management**
+
 - Easy blog posting for regular content
 - SEO optimization built-in
 - Email capture integration available
 
 ### 3. **Growth Flexibility**
+
 - Can upgrade features as platform grows
 - Plugin ecosystem for advanced functionality
 - Migration options if needed later
@@ -147,7 +165,8 @@ docs/
 
 ### Step 3: Essential Pages Creation (2-3 hours)
 
-#### Home Page Content:
+#### Home Page Content
+
 ```markdown
 # Welcome to the Garden of Being
 
@@ -157,7 +176,8 @@ The strange thing is—I'm not that voice.
 [Use content from website-content.md]
 ```
 
-#### About Page Content:
+#### About Page Content
+
 ```markdown
 # About Justin T. Bogner
 
@@ -168,7 +188,8 @@ and contemplative traditions...
 [Use author bio from media-kit.md]
 ```
 
-#### The Book Page:
+#### The Book Page
+
 ```markdown
 # The Serpent's Sentence
 
@@ -223,7 +244,8 @@ Topics include:
 
 ## CONTENT UPLOAD CHECKLIST
 
-### Pages to Create:
+### Pages to Create
+
 - [ ] Home page with Garden metaphor introduction
 - [ ] About page with professional bio
 - [ ] The Book page with compelling description
@@ -231,13 +253,15 @@ Topics include:
 - [ ] Speaking page with topics and contact
 - [ ] Contact page with professional form
 
-### Blog Posts to Prepare:
+### Blog Posts to Prepare
+
 - [ ] "We Are Not the Voice in Our Head" (launch post)
 - [ ] "What Ancient Myths Teach Us About AI" (week 2)
 - [ ] "The Neuroscience of 'I'" (week 3)
 - [ ] "Are We Building Our Own Replacement?" (week 4)
 
-### Technical Setup:
+### Technical Setup
+
 - [ ] Custom domain connected
 - [ ] Email capture form functional
 - [ ] Social media links added
@@ -249,12 +273,14 @@ Topics include:
 ## DESIGN RECOMMENDATIONS
 
 ### Visual Theme: "Garden of Consciousness"
+
 - **Colors:** Earth tones, greens, warm browns
 - **Imagery:** Abstract garden elements, brain/nature fusion
 - **Typography:** Clean, readable, academic yet accessible
 - **Layout:** Spacious, contemplative, inviting
 
-### Key Visual Elements:
+### Key Visual Elements
+
 - **Header:** Clean navigation with book title/subtitle
 - **Hero Section:** Compelling quote + book preview
 - **About Section:** Professional photo + bio
@@ -266,18 +292,21 @@ Topics include:
 ## LAUNCH TIMELINE
 
 ### Today (August 19): Foundation
+
 - [ ] WordPress.com account setup
 - [ ] Domain purchase and connection
 - [ ] Theme selection and basic customization
 - [ ] Essential pages created
 
 ### Tomorrow (August 20): Content
+
 - [ ] First blog post published
 - [ ] Email capture form tested
 - [ ] Social media links added
 - [ ] Contact forms functional
 
 ### Day 3 (August 21): Optimization
+
 - [ ] SEO optimization completed
 - [ ] Google Analytics installed
 - [ ] Site speed optimized
@@ -287,22 +316,26 @@ Topics include:
 
 ## RECOMMENDED TOOLS & SERVICES
 
-### Domain Registration:
+### Domain Registration
+
 - **Namecheap:** Reliable, good pricing
 - **Google Domains:** Simple, integrates well
 - **GoDaddy:** Popular, more expensive
 
-### Email Marketing:
+### Email Marketing
+
 - **Mailchimp:** Free tier, easy integration
 - **ConvertKit:** Creator-focused, powerful automation
 - **WordPress.com Email:** Built-in option
 
-### Analytics:
+### Analytics
+
 - **Google Analytics:** Free, comprehensive
 - **WordPress.com Stats:** Built-in, simple
 - **Hotjar:** User behavior insights
 
-### Design Resources:
+### Design Resources
+
 - **Unsplash:** Free professional photos
 - **Canva:** Easy graphic design
 - **Google Fonts:** Typography options

@@ -19,19 +19,19 @@ This is the organizational layer. As you create raw notes, you'll tag them with 
 
 Key Tags to Start With:
 
-#Eden (pre-linguistic consciousness, unity, flow states)
+# Eden (pre-linguistic consciousness, unity, flow states)
 
-#TheFall (language acquisition, division, categorization)
+# TheFall (language acquisition, division, categorization)
 
-#NarratorSelf (the "I" pronoun, the Default Mode Network, alienation)
+# NarratorSelf (the "I" pronoun, the Default Mode Network, alienation)
 
-#CambrianExplosion (generativity of language, myth, ideology as predation)
+# CambrianExplosion (generativity of language, myth, ideology as predation)
 
-#AI_Exile (postlapsarian nature of AI, non-embodied intelligence)
+# AI_Exile (postlapsarian nature of AI, non-embodied intelligence)
 
-#TrilobiteOrFish (human obsolescence vs. adaptation)
+# TrilobiteOrFish (human obsolescence vs. adaptation)
 
-#Symbiosis (human-AI integration, new forms of consciousness)
+# Symbiosis (human-AI integration, new forms of consciousness)
 
 A single note—for instance, a quote from Daniel Dennett—might get tagged with both #NarratorSelf and #TrilobiteOrFish. This system allows you to see the powerful connections between different fields of research.
 
