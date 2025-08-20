@@ -3,7 +3,7 @@
 # Copilot Instructions for The-Serpents-Sentence
 
 ## Project Overview
-This is an academic book project: "The Serpent's Sentence: Language, Consciousness, and the Second Cambrian Mind" by Justin T. Bogner. The project has evolved from planning to active manuscript development with LaTeX infrastructure and comprehensive research foundation.
+This is an academic book project: "The Serpent's Sentence: Language, Consciousness, and the Second Cambrian Mind" by Justin T. Bogner. The project has evolved from planning to a complete professional ecosystem including manuscript development, promotional materials, and article portfolio for academic and conference presentation.
 
 **Core Architecture:**
 - `Synopsis.txt` — foundational concept and thesis
@@ -12,15 +12,29 @@ This is an academic book project: "The Serpent's Sentence: Language, Consciousne
 - `.github/Guide.md` — voice, audience, and unique selling proposition
 - `main.tex` + `introduction.tex` — complete LaTeX manuscript ready for Overleaf
 - `notes/ai-research/source-summaries/` — comprehensive neuroscience research foundation
+- `articles/` — professional article portfolio with dual-format publishing system
+- `public-website-package/` — privacy-safe promotional website for public deployment
 
-## Current State: Manuscript with Structural Consistency
-The project has achieved significant manuscript development with unified structural approach:
+## Current State: Complete Professional Ecosystem
+The project has achieved comprehensive development across multiple publication channels:
 
 **LaTeX Infrastructure (Compiled and Consistent):**
 - `main.tex`: Professional book-class document (87 pages compiled successfully)
 - `introduction.tex`: Complete provocative introduction with vivid Garden metaphor and engaging hooks
 - Five complete chapters with unified structure: sections only, no subsections
 - Chicago author-date citation style, double-spacing, professional formatting
+
+**Article Portfolio System (16,500+ words, dual-format publishing):**
+- `articles/*.md`: Five major articles in markdown format for web/social media
+- `articles/latex/*.tex`: Professional LaTeX versions with enhanced TikZ graphics containing research data
+- `articles/pdfs/`: Publication-ready PDFs compiled via PowerShell automation (103-108KB each)
+- **Critical Workflow**: Use `.\compile-pdfs.ps1` in `articles/latex/` directory for PDF generation
+- Professional graphics using TikZ with actual scientific data (brain research, language milestones, AI benchmarks)
+
+**Promotional Platform:**
+- `public-website-package/`: Privacy-safe author website ready for GitHub Pages deployment
+- Professional design with contact forms, speaking topics, newsletter signup
+- **Security Note**: Contains NO proprietary manuscript content, only public-safe promotional materials
 
 **Completed Chapters (35,000+ words):**
 - **Introduction**: Provocative, hook-laden introduction establishing Garden framework and AI stakes
@@ -40,8 +54,11 @@ The project has achieved significant manuscript development with unified structu
 1. **Always read core files first:** `Synopsis.txt`, chapter outline, research outline, and guide
 2. **For manuscript work:** Reference `notes/ai-research/source-summaries/` for academic support
 3. **For LaTeX editing:** Use `replace_string_in_file` with 3-5 lines context, maintain professional formatting
-4. **New research:** Add to appropriate `notes/` subdirectory with clear academic documentation
-5. **Git commits:** Use detailed academic commit messages documenting research significance
+4. **For article work:** Edit markdown in `articles/*.md`, then regenerate LaTeX versions with TikZ graphics
+5. **For PDF compilation:** Use PowerShell script `.\compile-pdfs.ps1` in `articles/latex/` directory (requires XeLaTeX)
+6. **For website deployment:** Use `public-website-package/` for GitHub Pages (privacy-safe, no manuscript content)
+7. **New research:** Add to appropriate `notes/` subdirectory with clear academic documentation
+8. **Git commits:** Use detailed academic commit messages documenting research significance
 
 ## Key Patterns
 - **Tone:** Philosophically rigorous yet accessible, personal and exploratory—**use vivid metaphors, rich imagery, and poetic language to make complex ideas come alive**
@@ -51,6 +68,9 @@ The project has achieved significant manuscript development with unified structu
 - **Research Integration:** Academic sources support thesis, tagged with themes (#Eden, #TheFall, #NarratorSelf)
 - **Documentation:** All changes documented with detailed commit messages explaining academic relevance
 - **LaTeX Conventions:** Book-class, Chicago citations, double-spacing, sections-only chapter structure
+- **Article LaTeX Format:** Two-column professional layout with TikZ graphics containing actual research data
+- **Dual Publishing:** Articles exist in both markdown (web) and LaTeX (academic) formats
+- **File Organization:** Clean separation between source files and compiled outputs (PDFs in separate directory)
 - **Structural Consistency:** All chapters use sections only (no subsections) for unified reading experience
 
 ## Writing Guidelines for Engaging Academic Prose
@@ -63,6 +83,16 @@ The project has achieved significant manuscript development with unified structu
 - **Use concrete examples:** Ground abstract concepts in specific, relatable scenarios
 - **Employ sensory language:** Describe ideas through sight, sound, touch, movement
 
+## Article Portfolio Workflow Patterns
+- **Markdown First:** All articles begin as `.md` files in `articles/` directory for web publication
+- **LaTeX Enhancement:** Convert to professional academic format in `articles/latex/` with TikZ graphics
+- **Scientific Graphics:** Use actual research data in TikZ diagrams (brain signals, language milestones, AI benchmarks)
+- **PDF Compilation:** Run `.\compile-pdfs.ps1` in `articles/latex/` directory (requires XeLaTeX installation)
+- **File Organization:** Source `.tex` files in `latex/`, compiled PDFs in `pdfs/` directory
+- **Dual Audience:** Markdown for general readers/social media, LaTeX/PDF for academic conferences
+- **Professional Naming:** Use descriptive titles rather than abbreviated filenames for final PDFs
+- **Size Validation:** Final PDFs should be 103-108KB each indicating proper compilation with graphics
+
 ## Current Development Priority
 Five chapters completed with consistent vivid style. Focus on expanding remaining chapters (5-9, 11) using established patterns: sections-only organization, philosophical rigor, research integration, and **provocative, immersive prose that brings abstract concepts to life through rich Garden of Eden metaphor and engaging storytelling**.
 
@@ -70,6 +100,10 @@ Five chapters completed with consistent vivid style. Focus on expanding remainin
 - ✅ **87-page compiled PDF** with professional formatting and engaging prose
 - ✅ **Provocative introduction** that hooks readers with direct consciousness exploration  
 - ✅ **Five complete chapters** with unified Garden narrative and vivid metaphorical language
+- ✅ **Complete article portfolio** with 16,500+ words across 5 major topics
+- ✅ **Professional LaTeX formatting** with enhanced TikZ graphics containing research data
+- ✅ **PDF compilation system** via PowerShell automation in `articles/latex/` directory
+- ✅ **Privacy-safe promotional website** ready for GitHub Pages deployment
 - ✅ **Enhanced Copilot instructions** ensuring consistent engaging academic style
 - 🔄 **Remaining chapters 5-9, 11** ready for development using established vivid prose patterns
 - ⏳ **Bibliography integration** and citation cleanup for final academic polish

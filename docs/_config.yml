@@ -1,0 +1,15 @@
+# The Serpent's Sentence - GitHub Pages Site
+
+This directory contains the website files for GitHub Pages deployment.
+
+## Files
+- `index.html` - Main website file with complete author platform
+- `README.md` - Setup and activation instructions
+
+## Activation
+1. Push to GitHub
+2. Enable Pages in repository settings 
+3. Select main branch and /docs folder
+4. Site will be live at: https://pelicansperspective.github.io/The-Serpents-Sentence
+
+See README.md for detailed setup instructions.

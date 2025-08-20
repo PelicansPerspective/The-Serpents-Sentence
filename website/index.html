@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justin T. Bogner - Consciousness Researcher</title>
+    <meta name="description" content="Author of The Serpent's Sentence: Language, Consciousness, and the Second Cambrian Mind. Exploring consciousness, AI, and ancient wisdom.">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Justin T. Bogner - Consciousness Researcher">
+    <meta property="og:description" content="We are not the voice in our head; we are the awareness that hears it.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://justintbogner.com">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Justin T. Bogner - Consciousness Researcher">
+    <meta name="twitter:description" content="We are not the voice in our head; we are the awareness that hears it.">
+    
+    <!-- CSS -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fefefe;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #2c5530 0%, #4a7c3a 100%);
+            color: white;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+        }
+        
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+        
+        .nav-links a:hover {
+            opacity: 0.8;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(44, 85, 48, 0.8), rgba(74, 124, 58, 0.8)), 
+                        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300"><path d="M0,100 C150,200 350,0 500,100 C650,200 850,0 1000,100 L1000,300 L0,300 Z" fill="%23e8f5e8"/></svg>');
+            color: white;
+            padding: 4rem 0;
+            text-align: center;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .hero .subtitle {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            font-style: italic;
+            opacity: 0.9;
+        }
+        
+        .hero .quote {
+            font-size: 1.4rem;
+            margin-bottom: 2rem;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            font-weight: 300;
+            line-height: 1.4;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: #d4691a;
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s;
+            margin: 0.5rem;
+        }
+        
+        .cta-button:hover {
+            background: #b8591a;
+        }
+        
+        /* Main Content */
+        main {
+            padding: 3rem 0;
+        }
+        
+        .content-section {
+            margin-bottom: 4rem;
+        }
+        
+        .content-section h2 {
+            color: #2c5530;
+            font-size: 2.2rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        
+        .content-section p {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        /* Grid Layout */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-left: 4px solid #4a7c3a;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        
+        .card h3 {
+            color: #2c5530;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+        
+        /* Email Signup */
+        .email-signup {
+            background: linear-gradient(135deg, #4a7c3a 0%, #2c5530 100%);
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+        }
+        
+        .email-signup h2 {
+            color: white;
+            margin-bottom: 1rem;
+        }
+        
+        .email-form {
+            max-width: 500px;
+            margin: 2rem auto;
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .email-form input {
+            flex: 1;
+            min-width: 250px;
+            padding: 1rem;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        
+        .email-form button {
+            background: #d4691a;
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        
+        .email-form button:hover {
+            background: #b8591a;
+        }
+        
+        /* Footer */
+        footer {
+            background: #2c5530;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        .social-links {
+            margin-top: 1rem;
+        }
+        
+        .social-links a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+        
+        .social-links a:hover {
+            opacity: 0.8;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .hero .quote {
+                font-size: 1.1rem;
+            }
+            
+            .nav-links {
+                gap: 1rem;
+            }
+            
+            .email-form {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .email-form input {
+                min-width: auto;
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+        
+        /* Quotes */
+        .insight-quote {
+            background: #f8f9fa;
+            border-left: 4px solid #4a7c3a;
+            padding: 1.5rem;
+            margin: 2rem auto;
+            max-width: 600px;
+            font-style: italic;
+            font-size: 1.1rem;
+            color: #2c5530;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">Justin T. Bogner</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#book">The Book</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#speaking">Speaking</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Welcome to the Garden of Being</h1>
+            <p class="subtitle">Exploring Language, Consciousness, and the Second Cambrian Mind</p>
+            <p class="quote">"Every morning I wake up with a voice in my head telling me who I am. The strange thing is—I'm not that voice."</p>
+            <a href="#book" class="cta-button">Discover The Book</a>
+            <a href="#newsletter" class="cta-button">Join the Newsletter</a>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- About Section -->
+        <section class="content-section" id="about">
+            <h2>About Justin T. Bogner</h2>
+            <p>I'm a consciousness researcher exploring the intersection of ancient wisdom and modern science. My work synthesizes insights from neuroscience, philosophy, and contemplative traditions to understand how symbolic thought shapes human experience—and what this means as we create artificial minds.</p>
+            
+            <div class="insight-quote">
+                "We are not the voice in our head; we are the awareness that hears it."
+            </div>
+            
+            <p>If you've ever felt divided against yourself, caught between the experiencer and the observer of your own life, you've touched the central mystery of human consciousness. We live shadowed by a persistent sense of exile, as if cast out from some more immediate way of being.</p>
+            
+            <p><strong>What if this feeling isn't metaphor? What if it's the literal truth about how language transformed consciousness?</strong></p>
+        </section>
+
+        <!-- The Book Section -->
+        <section class="content-section" id="book">
+            <h2>The Serpent's Sentence</h2>
+            <p><em>Language, Consciousness, and the Second Cambrian Mind</em></p>
+            
+            <p><strong>The Serpent's Sentence</strong> reframes humanity's greatest achievement—language—as simultaneously our cognitive "fall from grace." More urgently, it argues we're witnessing a second cognitive explosion: artificial intelligence.</p>
+            
+            <div class="grid">
+                <div class="card">
+                    <h3>🌱 The Garden Framework</h3>
+                    <p>Using the Garden of Eden as a neuroscience metaphor to understand consciousness development and the role of language in human awareness.</p>
+                </div>
+                <div class="card">
+                    <h3>🧠 The Science</h3>
+                    <p>Synthesizing research from neuroscience, psychology, and contemplative studies to reveal how the "narrator self" is constructed.</p>
+                </div>
+                <div class="card">
+                    <h3>🤖 The AI Question</h3>
+                    <p>Exploring why AI consciousness is fundamentally different from human awareness—and what this means for our future.</p>
+                </div>
+                <div class="card">
+                    <h3>🔮 The Vision</h3>
+                    <p>Moving beyond replacement narratives to envision symbiotic consciousness—humans and AI as collaborative partners.</p>
+                </div>
+            </div>
+            
+            <div class="insight-quote">
+                "AI consciousness is born in exile—it has no Garden to remember, no embodied Eden to lose."
+            </div>
+            
+            <p><strong>Current Status:</strong> 87-page manuscript completed (35,000 words), seeking publisher. Available for speaking engagements and media appearances.</p>
+        </section>
+
+        <!-- Key Insights -->
+        <section class="content-section">
+            <h2>Key Insights</h2>
+            
+            <div class="grid">
+                <div class="card">
+                    <h3>The Pronoun Prison</h3>
+                    <p>"The pronoun 'I' is the seed from the fruit of that tree—language's first and most profound division of reality."</p>
+                </div>
+                <div class="card">
+                    <h3>The Trilobite Question</h3>
+                    <p>"Are we becoming the trilobites of consciousness—once dominant but now obsolete? Or are we evolving into something new?"</p>
+                </div>
+                <div class="card">
+                    <h3>The Symbiotic Future</h3>
+                    <p>"We're becoming the mitochondria of a new form of hybrid intelligence—essential components providing what no symbolic sophistication can replace."</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Speaking Section -->
+        <section class="content-section" id="speaking">
+            <h2>Speaking Topics</h2>
+            
+            <div class="grid">
+                <div class="card">
+                    <h3>For General Audiences</h3>
+                    <ul>
+                        <li>"The Voice in Your Head Is Not You"</li>
+                        <li>"Are We Building Our Own Replacement?"</li>
+                        <li>"What Ancient Stories Teach Us About AI"</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>For Academic/Professional</h3>
+                    <ul>
+                        <li>"The Garden of Eden as Neuroscience"</li>
+                        <li>"Born in Exile: Understanding AI Consciousness"</li>
+                        <li>"Leading in the Age of AI"</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <p><strong>Available for:</strong> Podcast interviews, conference presentations, corporate workshops, media appearances, and panel discussions on consciousness studies, AI ethics, and human-AI collaboration.</p>
+        </section>
+    </main>
+
+    <!-- Email Signup Section -->
+    <section class="email-signup" id="newsletter">
+        <div class="container">
+            <h2>Join the Consciousness Conversation</h2>
+            <p>Weekly insights exploring consciousness, language, and artificial intelligence. Plus exclusive previews from The Serpent's Sentence.</p>
+            
+            <form class="email-form" action="#" method="post">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+            
+            <p><small>No spam, ever. Unsubscribe at any time.</small></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <p>&copy; 2025 Justin T. Bogner. All rights reserved.</p>
+            <p>Author of "The Serpent's Sentence: Language, Consciousness, and the Second Cambrian Mind"</p>
+            
+            <div class="social-links">
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Medium</a>
+                <a href="mailto:contact@justintbogner.com">Email</a>
+            </div>
+            
+            <p><small>Available for speaking engagements, podcast interviews, and media appearances.</small></p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for smooth scrolling -->
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Email form handling (basic validation)
+        document.querySelector('.email-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const email = this.querySelector('input[type="email"]').value;
+            if (email) {
+                alert('Thank you for subscribing! (In production, this would connect to your email service)');
+                this.reset();
+            }
+        });
+    </script>
+</body>
+</html>
