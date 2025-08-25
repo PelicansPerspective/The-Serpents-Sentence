@@ -1,0 +1,24 @@
+# Archive directory for extraneous files
+archive/
+
+# LaTeX compilation artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# PDF outputs (keep main_fixed.pdf but ignore others)
+*.pdf
+!main_fixed.pdf
+
+# Temporary files
+*.tmp
+*.bak
+*~
