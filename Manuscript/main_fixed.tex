@@ -4,32 +4,24 @@
 \usepackage[margin=1.25in]{geometry}
 \usepackage{setspace}
 \usepackage{indentfirst}
+\usepackage{csquotes}
 \usepackage[protrusion=true,expansion=true]{microtype}
+\usepackage{titlesec}
 \usepackage{fancyhdr}
 \setlength{\headheight}{14.5pt}
 \usepackage{emptypage}
-
-% Improve line breaking
-\tolerance=1000
-\emergencystretch=10pt
-\hbadness=10000
-
-% Improve page breaking
-\vbadness=10000
-\raggedbottom
-
-\usepackage{csquotes} % Recommended for biblatex with babel/polyglossia
 \usepackage[style=authoryear,backend=biber]{biblatex}
+\usepackage{tikz}
+\usetikzlibrary{decorations.pathmorphing}
 \usepackage{hyperref} % Added for clickable links
-\usepackage{bookmark} % Optional: improves outline/bookmark handling
 
 % Custom hyphenation
-\hyphenation{con-scious-ness in-ter-sub-jec-tiv-i-ty phe-nom-e-no-log-i-cal electro-encephalo-graphy neuro-imaging archetype sub-jec-tion hier-ar-chy estab-lished}
+\hyphenation{con-scious-ness in-ter-sub-jec-tiv-i-ty phe-nom-e-no-log-i-cal}
 
 % Title page information
 \title{The Serpent's Sentence\\
 \large Language, Consciousness, and the Second Cambrian Mind}
-\author{Justin T. Bogner}
+\author{Author Name}
 \date{}
 
 % Bibliography resource

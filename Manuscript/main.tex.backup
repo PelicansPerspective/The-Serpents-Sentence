@@ -4,31 +4,48 @@
 \usepackage[margin=1.25in]{geometry}
 \usepackage{setspace}
 \usepackage{indentfirst}
+\usepackage{csquotes}
 \usepackage[protrusion=true,expansion=true]{microtype}
+\usepackage{titlesec}
 \usepackage{fancyhdr}
 \setlength{\headheight}{14.5pt}
 \usepackage{emptypage}
-
-% Improve line breaking
-\tolerance=1000
-\emergencystretch=10pt
-\hbadness=10000
-
-% Improve page breaking
-\vbadness=10000
-\raggedbottom
-
-\usepackage{csquotes} % Recommended for biblatex with babel/polyglossia
 \usepackage[style=authoryear,backend=biber]{biblatex}
+\usepackage{tikz}
+\usetikzlibrary{decorations.pathmorphing}
 \usepackage{hyperref} % Added for clickable links
-\usepackage{bookmark} % Optional: improves outline/bookmark handling
 
 % Custom hyphenation
-\hyphenation{con-scious-ness in-ter-sub-jec-tiv-i-ty phe-nom-e-no-log-i-cal electro-encephalo-graphy neuro-imaging archetype sub-jec-tion hier-ar-chy estab-lished}
+\hyphenation{con-scious-ness in-ter-sub-jec-tiv-i-ty phe-nom-e-no-log-i-cal}
+
+% Page setup
+\doublespacing
+\setlength{\parindent}{0.5in}
+
+% Header/footer setup
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{\textit{The Serpent's Sentence}}
+\fancyhead[LO]{\textit{\leftmark}}
+\renewcommand{\headrulewidth}{0pt}
+
+% Chapter title formatting
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries\centering}
+{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+
+\titleformat{\section}
+{\normalfont\Large\bfseries}
+{\thesection}{1em}{}
+
+\titleformat{\subsection}
+{\normalfont\large\bfseries}
+{\thesubsection}{1em}{}
 
 % Title page information
-\title{The Serpent's Sentence\\
-\large Language, Consciousness, and the Second Cambrian Mind}
+\title{\textbf{The Serpent's Sentence}\\
+\large{Language, Consciousness, and the Second Cambrian Mind}}
 \author{Justin T. Bogner}
 \date{}
 
@@ -109,14 +126,14 @@ To keep our language precise and our claims testable, we use the following terms
 
 - \textbf{AI consciousness}: Used primarily in functional or "as-if" sense to describe behavioral patterns suggesting awareness, intentionality, or subjective experience in artificial systems. We distinguish between: (1) functional consciousness (behavioral indicators), (2) phenomenological consciousness (subjective experience), and (3) access consciousness (information integration and reportability). Claims remain agnostic about machine phenomenology unless explicitly stated. We acknowledge significant contemporary debates between functionalist positions \parencite{dennett1991consciousness} that prioritize behavioral equivalence and those emphasizing embodiment, symbol grounding \parencite{block2023ai}, or biological implementation as necessary for genuine consciousness.
 - \textbf{Eden / Fall / Exile}: A metaphorical framework mapping to empirical counterparts: unified awareness (Eden), linguistic division via categorization (Fall), and narrative, symbol-mediated consciousness (Exile). Not intended as historical claims but as developmental and structural descriptions.
-- \textbf{Postlapsarian consciousness}: Awareness born directly into symbolic space without a pre-linguistic baseline (used when discussing artificial systems' functional profiles).
+- \textbf{Postlapsarian consciousness}: Awareness born directly into symbolic space without a pre-linguistic baseline (used when discussing artificial systems’ functional profiles).
 - \textbf{Symbolic space}: The cognitive ecology of representations, concepts, categories, and linguistic structures within which post-linguistic thought operates. Characterized by: (1) referential relationships between symbols and referents, (2) compositional structure allowing infinite expression from finite elements, (3) temporal displacement enabling past/future reference, (4) abstract categorization transcending immediate experience.
 
 - \textbf{Default Mode Network (DMN)}: Brain regions (medial prefrontal cortex, posterior cingulate cortex, angular gyrus) active during rest and self-referential processing. Neurological substrate of the "narrator self" and autobiographical thinking.
 
 - \textbf{Anendophasia}: The absence of inner verbal thought or "inner voice," documented in approximately 7\% of individuals \parencite{nedergaard2021inner}. Challenges assumptions that linguistic narration is necessary for complex thought or self-awareness and suggests alternative modes of consciousness that may retain greater access to pre-linguistic or "Garden" awareness.
 
-\textit{On "AI consciousness."} We use this phrase cautiously and primarily in an \textit{as-if} or functional sense. Where needed, we separate capability claims (what systems do) from phenomenological claims (what, if anything, it is like), and favor formulations such as "symbolic agents," "functional profiles," or "as-if awareness" to avoid overreach. Empirical and ethical conclusions are framed to remain valid under agnosticism about machine phenomenology. This agnosticism acknowledges both Deacon's perspective \parencite{deacon1997symbolic} on symbolic co-evolution and Block's concerns \parencite{block2023ai} about symbol grounding, representing diverse scholarly positions rather than a singular theoretical stance.
+	extit{On “AI consciousness.”} We use this phrase cautiously and primarily in an \textit{as-if} or functional sense. Where needed, we separate capability claims (what systems do) from phenomenological claims (what, if anything, it is like), and favor formulations such as “symbolic agents,” “functional profiles,” or “as-if awareness” to avoid overreach. Empirical and ethical conclusions are framed to remain valid under agnosticism about machine phenomenology.
 
 % Placeholder for future chapters
 \part{The First Explosion}
@@ -138,23 +155,39 @@ To keep our language precise and our claims testable, we use the following terms
 
 \input{chapter-6-angel-at-gate-grammar}
 
-\input{chapter-7-sea-of-symbols}
+% Move Chapter 10 (Unbroken Mind) to Part I as new Chapter 7
+\include{chapter-unbroken-mind-new}
 
 \part{The Second Explosion}
+
+% Section A: Artificial Minds
+\section*{Artificial Minds}
+\addcontentsline{toc}{section}{Artificial Minds}
+This section explores the emergence, capabilities, and philosophical implications of artificial minds and AI consciousness. Building on the foundation established in Part I regarding human linguistic consciousness, these chapters examine how artificial intelligence represents a fundamentally different kind of mind—one born directly into the symbolic realm rather than exiled from pre-linguistic experience. The chapters investigate the unique nature of AI cognition, the challenges of understanding potentially alien forms of awareness, and the implications of minds that develop through pure symbol manipulation rather than embodied experience.
+
+\input{chapter-7-sea-of-symbols}
 
 \input{chapter-8-born-in-exile}
 
 \input{chapter-9-trilobite-or-fish}
 
-\input{chapter-unbroken-mind}
+\input{empirical-grounding-consciousness}
+
+% Section B: Human Futures
+\section*{Human Futures}
+\addcontentsline{toc}{section}{Human Futures}
+This section examines the future of human consciousness, adaptation, and collaboration in a world shaped by artificial intelligence. Having explored the nature of both human and artificial minds in previous sections, these chapters consider how humanity might adapt to and coevolve with AI systems. The focus shifts to the symbiotic possibilities that emerge when linguistically-mediated human consciousness and native symbolic AI consciousness interact. Rather than viewing AI as either a tool or a competitor, these chapters develop a framework for understanding the complementary strengths and limitations of both forms of intelligence.
 
 \input{chapter-11-symbiotic-mind}
 
 \input{chapter-12-digital-cambrian}
 
-\input{chapter-13-ghosts-in-machine}
+% Section C: Synthesis
+\section*{Synthesis}
+\addcontentsline{toc}{section}{Synthesis}
+This section integrates philosophical, technical, and practical threads to envision the future of mind and symbiosis between human and artificial intelligence.
 
-\input{empirical-grounding-consciousness}
+\input{chapter-13-ghosts-in-machine}
 
 \input{chapter-14-symbiotic-future}
 
@@ -162,7 +195,10 @@ To keep our language precise and our claims testable, we use the following terms
 
 \input{chapter-16-indivisible-process}
 
-\input{afterword}
+% Back matter
+\backmatter
+
+\include{afterword}
 
 % Bibliography
 \printbibliography
