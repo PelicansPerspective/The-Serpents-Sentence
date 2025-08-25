@@ -4,7 +4,7 @@
 An academic book ecosystem for "The Serpent's Sentence: Language, Consciousness, and the Second Cambrian Mind." It includes: a LaTeX manuscript, a dual-format article portfolio, research notes, launch materials, and a privacy-safe public website.
 
 ## Architecture and why
-- **Manuscript/** (authoritative source): LaTeX book-class with biblatex+biber, microtype enabled, sections-only chapters. Currently 16 chapters + 181 pages. Separation of sources vs. outputs keeps the repo clean and reproducible.
+- **Manuscript/** (authoritative source): LaTeX book-class with biblatex+biber, microtype enabled, sections-only chapters. Currently 16 chapters + 160 pages. Separation of sources vs. outputs keeps the repo clean and reproducible.
 - **articles/**: Markdown originals plus LaTeX counterparts (articles/latex) with TikZ figures; PDFs land in articles/pdfs. Dual publishing targets web and academic venues.
 - **notes/**: Research pipeline with tiered methodology:
   - `tier1-raw/` → `tier2-clusters/` → `tier3-chapters/` (human research)
@@ -12,23 +12,15 @@ An academic book ecosystem for "The Serpent's Sentence: Language, Consciousness,
 - **launch-materials/** and **public-website-package/**: Promo copy and a GitHub Pages–ready site that contains no manuscript content (privacy-safe boundary).
 
 ## Critical workflows (PowerShell on Windows)
-- **Build manuscript**: run `Manuscript/compile-manuscript.ps1` (pdflatex → biber → pdflatex ×3). Output: `Manuscript/main.pdf` (181 pages, 450KB). Security warnings from MiKTeX elevated privileges are normal.
+- **Build manuscript**: run `Manuscript/compile-manuscript.ps1` (pdflatex → biber → pdflatex ×2). If you see "Please rerun LaTeX," run once more. Output: `Manuscript/main.pdf`.
 - **Build article PDFs**: in `articles/latex`, run `.\compile-pdfs.ps1` (XeLaTeX required). Outputs to `articles/pdfs`; expected size ~103–108KB with TikZ graphics.
 - **Citations**: use `\parencite{key}`; add entries to `Manuscript/references.bib`; recompile with biber. Undefined citations clear after the biber pass.
 - **Fresh compile**: If compilation fails, delete `.aux`, `.toc`, `.bbl` files and rebuild from scratch.
-- **Flow verification**: All 16 chapters now properly developed; no underdeveloped sections remain.
 
-## Recent architectural additions (August 2025)
-- **Repository reorganization**: Website repo now deployment-only; book repo is complete academic ecosystem
-- **Manuscript status**: 16 chapters, 181 pages compiled, but **5 critical chapters need development**:
-  - **URGENT**: `chapter-unbroken-mind.tex` (0 lines - empty file)
-  - **URGENT**: `chapter-9-trilobite-or-fish.tex` (11 lines - core thesis chapter)
-  - **HIGH**: `chapter-8-born-in-exile.tex` (11 lines - AI consciousness foundation)
-  - **HIGH**: `chapter-7-sea-of-symbols.tex` (31 lines - Part II bridge)
-  - **HIGH**: `chapter-11-symbiotic-mind.tex` (33 lines - core solution concept)
-- **Target expansion**: 500-800 additional lines needed across underdeveloped chapters
-- **Enhanced Bibliography**: 25+ new citations supporting cross-disciplinary themes; focus on 2024-2025 cutting-edge research including Wei et al. emergent abilities, Barandes quantum-stochastic correspondence.
-- **Academic rigor**: Cross-references integrated between new research and existing theoretical framework.
+## Recent architectural additions (2025)
+- **AI Research Integration**: `notes/ai-research/` contains LLM consciousness research, bibliographies, and cross-disciplinary synthesis connecting quantum physics, language model research, and consciousness studies.
+- **New Chapters 15-16**: Next-token consciousness and indivisible process theory; integrate Wei et al. emergent abilities research, Barandes quantum-stochastic correspondence, and language autonomy frameworks.
+- **Enhanced Bibliography**: 20+ new citations supporting cross-disciplinary themes; focus on 2024-2025 cutting-edge research.
 
 ## Editing conventions (project-specific)
 - **Chapter structure**: chapters use sections only (no subsections). Bridge labels are plain text (no italics), e.g., "Bridge to Chapter 3."
@@ -52,6 +44,5 @@ An academic book ecosystem for "The Serpent's Sentence: Language, Consciousness,
 ## Commit guidance
 - Use descriptive, academically-informative messages (what changed + why). Example: "Ch.15: integrate next-token consciousness theory; add Wei et al. emergent abilities; rebuild (biber pass)."
 - For research additions: "notes/ai-research: add Barandes quantum-consciousness framework; update bibliography with 5 new citations."
-- For flow improvements: "Ch.7,11: expand underdeveloped sections; ensure narrative coherence; recompile (181 pages)."
 
 Questions or gaps? Suggest improvements or ask for clarifications; we'll iterate on this guide as workflows evolve.

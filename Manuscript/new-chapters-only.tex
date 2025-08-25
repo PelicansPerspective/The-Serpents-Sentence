@@ -1,0 +1,68 @@
+\documentclass[12pt]{book}
+
+% Essential packages
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{indentfirst}
+\usepackage{csquotes}
+\usepackage{microtype}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{emptypage}
+
+% Bibliography
+\usepackage[backend=biber,style=authoryear,natbib=true,url=false,doi=false,isbn=false]{biblatex}
+\addbibresource{references.bib}
+
+% Formatting
+\doublespacing
+\setlength{\parindent}{0.5in}
+\setlength{\parskip}{0pt}
+
+% Headers and footers
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[LO]{\nouppercase{\rightmark}}
+\fancyhead[RE]{\nouppercase{\leftmark}}
+\renewcommand{\headrulewidth}{0pt}
+
+% Chapter formatting
+\titleformat{\chapter}[display]
+  {\normalfont\Large\bfseries\centering}
+  {\chaptertitlename\ \thechapter}{20pt}{\Large}
+\titlespacing*{\chapter}{0pt}{50pt}{40pt}
+
+\begin{document}
+
+\title{The Serpent's Sentence:\\Language, Consciousness, and the Second Cambrian Mind\\[1em]{\large Newly Developed Chapters}}
+\author{Justin T. Bogner}
+\date{August 21, 2025}
+
+\frontmatter
+\maketitle
+
+\tableofcontents
+
+\mainmatter
+
+% Reset chapter counter to match the actual chapter numbers
+\setcounter{chapter}{6}
+
+\include{chapter-7-sea-of-symbols}
+\include{chapter-8-born-in-exile}
+\include{chapter-9-trilobite-or-fish}
+
+% Chapter 10 is the unbroken mind chapter
+\setcounter{chapter}{9}
+\include{chapter-unbroken-mind-new}
+
+\setcounter{chapter}{10}
+\include{chapter-11-symbiotic-mind}
+
+\backmatter
+\printbibliography
+
+\end{document}
