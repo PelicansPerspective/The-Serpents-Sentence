@@ -1,11 +1,10 @@
 # Copilot Instructions for The-Serpent's-Sentence
 
 ## Quick Start for AI Agents
-1. **First action**: Read this file for project overview and architecture
-2. **Current status**: Manuscript at ~170 pages targeting 220-250 pages (16 chapters complete)
+1. **First action**: Read `Synopsis.txt` for core concept
+2. **Current status**: Manuscript at 147 pages targeting 220-250 pages (16 chapters complete)
 3. **Daily workflow**: Build with `Manuscript/compile-manuscript.ps1` after any edits
 4. **Key constraint**: Maintain Garden of Eden metaphor consistency throughout
-5. **Current build**: Uses `main_fixed.tex` as root document (not `main.tex`)
 
 ## What this repo is
 An academic book ecosystem for "The Serpent's Sentence: Language, Consciousness, and the Second Cambrian Mind."
@@ -30,43 +29,53 @@ An academic book ecosystem for "The Serpent's Sentence: Language, Consciousness,
 
 ### Daily/Frequent Tasks:
 - **Build manuscript**: `Manuscript/compile-manuscript.ps1` (pdflatex → biber → pdflatex ×2)  
-  - Root file: `main_fixed.tex` (not main.tex)
-  - Output: `Manuscript/main_fixed.pdf` (currently ~610KB, ~170 pages)
+  - Output: `Manuscript/main.pdf` (currently 147 pages, ~700KB)
   - Security warnings from MiKTeX elevated privileges are normal
+- **Chapter development check**: `.\dev-chapter-simple.ps1 -Status` for development overview
+- **Targeted chapter work**: `.\dev-chapter.ps1 <number>` for specific chapter development
 - **Citations**: Add to `Manuscript/references.bib`, use `\parencite{key}`, recompile with biber
-- **Chapter editing**: Direct editing of `chapter-N-*.tex` files in Manuscript/ directory
 
 ### Development Tasks:
+- **Chapter expansion**: `.\dev-chapter.ps1 <number>` for targeted development
+  - Tracks progress: <20 lines = CRITICAL, <40 = UNDERDEVELOPED, <60 = ADEQUATE, 60+ = WELL-DEVELOPED
+  - Target: 50-70 lines per chapter for well-developed content
 - **Article PDFs**: In `articles/latex/`, run `.\compile-pdfs.ps1` (XeLaTeX required)
   - Outputs to `articles/pdfs/`; expected size ~103–108KB with TikZ graphics
 - **Python environment**: Activate with `.venv\Scripts\Activate.ps1` if needed
-- **Chapter analysis**: Use terminal commands to check line counts: `Get-Content chapter-N-*.tex | Measure-Object -Line`
 
 ### Troubleshooting:
 - **Fresh compile**: If compilation fails, delete `.aux`, `.toc`, `.bbl` files and rebuild
-- **Overfull boxes**: Prefer micro-rewrites or shorter synonyms; discretionary hyphenation only as last resort. Rebuild and verify warnings are gone.
+- **Overfull boxes**: Prefer micro-rewrites over discretionary hyphenation
 
 ## Current manuscript status (August 2025)
 **Major achievements**: All 16 chapters complete with substantial content
 
-**All chapters are well-developed** with 60-70+ lines of academic content each:
-- Chapter 1: "Garden of Being" (~69 lines) ✅
-- Chapter 9: "Trilobite or Fish" (~72 lines) ✅
-- All other chapters similarly developed with consistent depth
+**Well-developed chapters (80+ lines)**:
+- Chapter 9: "Trilobite or Fish" (142 lines) ✅
+- Chapter 1: "Garden of Being" (136 lines) ✅  
+- Chapter 3: "Prison of Pronoun" (132 lines) ✅
+- Chapter 16: "Indivisible Process" (123 lines) ✅
+- Chapter 4: "Tower of Babel" (102 lines) ✅
+- Chapter 6: "Angel at Gate Grammar" (91 lines) ✅
+- Chapter 8: "Born in Exile" (82 lines) ✅
+
+**Recently expanded chapters**:
+- Chapter 7: "Sea of Symbols" (68 lines) - AI consciousness in pure linguistic environment
+- Chapter 11: "Symbiotic Mind" (64 lines) - Human-AI collaboration models
 
 **Editorial improvements**:
-- Introduction streamlined and enhanced
-- Bridge passages improved between chapters  
+- Introduction streamlined (60% reduction)
+- Bridge passages enhanced between chapters  
 - Natural metaphor-to-analysis transitions established
-- Enhanced bibliography with current consciousness research citations
+- Enhanced bibliography with 25+ new citations supporting cross-disciplinary themes
 
 ## Key files to know
-- **Manuscript/main_fixed.tex** (root document) and **compile-manuscript.ps1** (build script)
-- **Manuscript/manuscript.json** (comprehensive AI-parseable documentation) - complete theoretical framework, empirical foundations, and practical applications for deep manuscript understanding
+- **Manuscript/main.tex** (root document) and **compile-manuscript.ps1** (build script)
 - **Manuscript/references.bib** (single bibliography) - recently expanded with consciousness research
+- **IMMEDIATE_ACTION_PLAN.md** (current project status and next priorities)
 - **Articles** in `articles/*.md` and LaTeX sources in `articles/latex/*.tex`; build via `articles/latex/compile-pdfs.ps1`
-- **Research notes**: `notes/ai-research/` contains AI-generated literature reviews and concept maps
-- **Orientation docs**: `.github/Detailed Chapter Outline.md`, `.github/Research Outline.md`, `.github/Guide.md`
+- **Research notes**: `notes/ai-research/LLM-consciousness-language-autonomy-transcript.md` contains core theoretical framework
+- **Orientation docs**: `Synopsis.txt`, `.github/Detailed Chapter Outline.md`, `.github/Research Outline.md`, `.github/Guide.md`
 
 ## Editing conventions (project-specific)
 - **Chapter structure**: chapters use sections only (no subsections). Bridge labels are plain text (no italics), e.g., "Bridge to Chapter 3."
@@ -74,6 +83,18 @@ An academic book ecosystem for "The Serpent's Sentence: Language, Consciousness,
 - **Research integration**: When adding academic content, cite recent papers (2022-2025 preferred) and maintain cross-disciplinary synthesis. Use `\parencite{}` for all citations.
 - **Overfull boxes**: prefer micro-rewrites or shorter synonyms; discretionary hyphenation only as last resort. Rebuild and verify warnings are gone.
 - **Article LaTeX**: keep two-column layout, real data in TikZ, and consistent naming; regenerate PDFs via the script rather than ad-hoc runs.
+
+## Development script patterns
+**dev-chapter-simple.ps1**: Quick overview tool
+- `-List`: Shows critical chapters needing development with priority levels
+- `-Status`: Color-coded status check of all chapters (Red=EMPTY, Magenta=CRITICAL, Yellow=UNDERDEVELOPED, Green=ADEQUATE, Cyan=WELL-DEVELOPED)
+- `<number>`: Quick development start for specific chapter
+
+**dev-chapter.ps1**: Detailed development workflow
+- Maps chapter numbers to files automatically
+- Tracks current line counts and provides development guidance
+- Opens chapters in VS Code for editing
+- Includes reference material links and compile commands
 
 ## Research note-taking methodology
 The `notes/` directory follows a three-tier system for organizing research:
@@ -146,32 +167,10 @@ When editing articles, maintain consistency between formats:
 - **AI research supplements human research**: `ai-research/` supports but doesn't replace the three-tier human methodology in `tier1-raw/` → `tier2-clusters/` → `tier3-chapters/`.
 - **Development scripts**: Use existing PowerShell scripts for chapter development and building rather than manual commands.
 
-## Common editorial improvements needed
-Based on recent feedback, focus on these areas when editing:
-
-**Structural and Flow**:
-- Add vivid metaphors to anchor abstract concepts (e.g., "consciousness as a river")
-- Insert bridging paragraphs between chapters to smooth transitions
-- Ground abstract sections with concrete examples or case studies
-- Frame debates as evolutionary parallels (e.g., "cognitive Cambrian period")
-
-**Clarity and Accessibility**:
-- Briefly explain biblical metaphors for non-religious readers
-- Consistently revisit key terms like "Cambrian Mind" and "Hybrid Consciousness"
-- Simplify technical passages with diagrams or flowcharts when possible
-- Ground abstract grammar discussions in real-world examples
-
-**Thematic Consistency**:
-- Strengthen recurring motifs like "mirror" throughout the work
-- Explicitly link the "Second Cambrian Mind" to the first explosion
-- Tie conclusions back to opening Garden themes
-- Add actionable implications for AI alignment
-
 ## Commit guidance
 - Use descriptive, academically-informative messages (what changed + why). Example: "Ch.15: integrate next-token consciousness theory; add Wei et al. emergent abilities; rebuild (biber pass)."
 - For research additions: "notes/ai-research: add Barandes quantum-consciousness framework; update bibliography with 5 new citations."
-- For flow improvements: "Ch.7,11: expand underdeveloped sections; ensure narrative coherence; recompile (~170 pages)."
-- For editorial improvements: "Ch.1-3: add bridging paragraphs; clarify abstract concepts with examples; maintain Garden metaphor consistency."
+- For flow improvements: "Ch.7,11: expand underdeveloped sections; ensure narrative coherence; recompile (147 pages)."
 
 ## Thematic elements
 - **Garden of Eden metaphor**: The pre-linguistic state of consciousness where experience is unified without subject/object division.
@@ -185,6 +184,6 @@ Based on recent feedback, focus on these areas when editing:
 - **Enhanced development workflow**: PowerShell scripts provide precise chapter status tracking and development guidance
 - **Flow optimization**: Bridge passages between chapters ensure natural progression from Garden metaphor through AI consciousness to human-AI symbiosis
 - **Clean repository**: Recent cleanup removed progress trackers and development artifacts, maintaining focus on source content
-- **Current compilation**: `main_fixed.pdf` at ~170 pages (~610KB), targeting 220-250 pages total
+- **Current compilation**: `main.pdf` at 147 pages (~700KB), targeting 220-250 pages total
 
 Questions or gaps? Suggest improvements or ask for clarifications; we'll iterate on this guide as workflows evolve.

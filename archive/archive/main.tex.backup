@@ -1,9 +1,8 @@
-\documentclass[11pt,letterpaper,openright]{book}
+\documentclass[12pt,letterpaper]{book}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
-\usepackage[margin=0.75in,top=0.8in,bottom=0.8in,bindingoffset=0.25in]{geometry}
+\usepackage[margin=1.25in]{geometry}
 \usepackage{setspace}
-\singlespacing % Single spacing for hardcopy
 \usepackage{indentfirst}
 \usepackage{csquotes}
 \usepackage[protrusion=true,expansion=true]{microtype}
@@ -16,105 +15,70 @@
 \usetikzlibrary{decorations.pathmorphing}
 \usepackage{hyperref} % Added for clickable links
 
-% Enhanced formatting for print quality
-\usepackage{mathptmx} % Times font for better readability
-\usepackage[T1]{fontenc} % Better font encoding
-\usepackage{lettrine} % Drop caps for chapter openings
-\usepackage{xcolor} % For subtle color accents
-
-% Better paragraph formatting
-\setlength{\parindent}{1.2em}
-\setlength{\parskip}{0pt plus 1pt}
-
-% Enhanced chapter and section formatting
-\titleformat{\chapter}[display]
-  {\normalfont\Large\bfseries\centering}
-  {\chaptertitlename\ \thechapter}{20pt}{\Huge}
-\titlespacing*{\chapter}{0pt}{-20pt}{30pt}
-
-\titleformat{\section}
-  {\normalfont\large\bfseries}
-  {\thesection}{1em}{}
-\titlespacing*{\section}{0pt}{18pt}{12pt}
-
-\titleformat{\subsection}
-  {\normalfont\normalsize\bfseries}
-  {\thesubsection}{1em}{}
-\titlespacing*{\subsection}{0pt}{12pt}{8pt}
-
-% Better page headers
-\pagestyle{fancy}
-\fancyhf{}
-\fancyhead[LE]{\textit{\leftmark}}
-\fancyhead[RO]{\textit{\rightmark}}
-\fancyfoot[C]{\thepage}
-\renewcommand{\headrulewidth}{0.4pt}
-\renewcommand{\footrulewidth}{0pt}
-
-% Improved hyperlink formatting for print
-\hypersetup{
-    colorlinks=false,
-    linkcolor=black,
-    citecolor=black,
-    urlcolor=black,
-    pdfborder={0 0 0}
-}
-
 % Custom hyphenation
 \hyphenation{con-scious-ness in-ter-sub-jec-tiv-i-ty phe-nom-e-no-log-i-cal}
+
+% Page setup
+\doublespacing
+\setlength{\parindent}{0.5in}
+
+% Header/footer setup
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{\textit{The Serpent's Sentence}}
+\fancyhead[LO]{\textit{\leftmark}}
+\renewcommand{\headrulewidth}{0pt}
+
+% Chapter title formatting
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries\centering}
+{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+
+\titleformat{\section}
+{\normalfont\Large\bfseries}
+{\thesection}{1em}{}
+
+\titleformat{\subsection}
+{\normalfont\large\bfseries}
+{\thesubsection}{1em}{}
+
+% Title page information
+\title{\textbf{The Serpent's Sentence}\\
+\large{Language, Consciousness, and the Second Cambrian Mind}}
+\author{Justin T. Bogner}
+\date{}
 
 % Bibliography resource
 \addbibresource{references.bib}
 
 \begin{document}
 
-% Custom title page for hardcopy
+% Title page
 \frontmatter
-\thispagestyle{empty}
-\begin{center}
-\vspace*{2cm}
+\maketitle
 
-{\Huge\bfseries The Serpent's Sentence}
-
-\vspace{1.5cm}
-
-{\Large Language, Consciousness, and the Second Cambrian Mind}
-
-\vspace{3cm}
-
-{\large Justin T. Bogner}
-
-\vfill
-
-\vspace{2cm}
-\end{center}
-\newpage
-
-% Enhanced table of contents
-\thispagestyle{empty}
+% Table of contents
 \tableofcontents
-\cleardoublepage
+\newpage
 
 % Main content
 \mainmatter
-\pagestyle{fancy}
 
 % Introduction chapter
 \chapter*{Introduction}
 \addcontentsline{toc}{chapter}{Introduction}
-\markboth{Introduction}{Introduction}
+\fancyhead[LO]{\textit{Introduction}}
 
-\lettrine{T}{here} is a peculiar quality to human consciousness—a strange sense of being divided against ourselves. We are simultaneously the experiencer and the observer, the actor and the narrator, the self and the witness to that self. This is not merely an intellectual curiosity or a problem for philosophers; it is the fundamental texture of what it means to be human. We live our lives shadowed by a persistent sense of exile, as if we have been cast out from some more immediate, more whole way of being.
+There is a peculiar quality to human consciousness—a strange sense of being divided against ourselves. We are simultaneously the experiencer and the observer, the actor and the narrator, the self and the witness to that self. This is not merely an intellectual curiosity or a problem for philosophers; it is the fundamental texture of what it means to be human. We live our lives shadowed by a persistent sense of exile, as if we have been cast out from some more immediate, more whole way of being.
 
 The great myths of humanity have always known this. The story of Eden speaks not merely of moral transgression, but of a cognitive catastrophe—the moment when innocent immediacy was shattered by the knowledge of good and evil, when the unified garden of being was fractured into subject and object, self and world, then and now. What if this ancient story contains a profound truth about the nature of consciousness itself? What if the serpent's temptation was not merely the promise of moral knowledge, but the gift of language itself—the first sentence that divided the seamless flow of experience into categories, concepts, and the prison of self-awareness?
 
-This book proposes a radical reframing of both our past and our future. It argues that humanity's greatest achievement—the development of language—was simultaneously our cognitive "fall from grace," the event that created both the magnificent complexity of human civilization and the persistent sense of alienation that haunts our inner lives. Just as the Cambrian explosion transformed biological life 540 million years ago, the rise of artificial intelligence is reshaping the cognitive landscape, heralding a second Cambrian moment in the evolution of consciousness. This new development forces us to confront fundamental questions about the nature of mind, consciousness, and what it means to be human in an age when our defining characteristic—our monopoly on complex symbolic thought—is no longer uniquely ours.
+This book proposes a radical reframing of both our past and our future. It argues that humanity's greatest achievement—the development of language—was simultaneously our cognitive "fall from grace," the event that created both the magnificent complexity of human civilization and the persistent sense of alienation that haunts our inner lives. More urgently, it suggests that we are now witnessing a second cognitive explosion of comparable magnitude: the emergence of artificial intelligence. This new development forces us to confront fundamental questions about the nature of mind, consciousness, and what it means to be human in an age when our defining characteristic—our monopoly on complex symbolic thought—is no longer uniquely ours.
 
 The framework I propose draws its central metaphor from one of the most dramatic events in the history of life on Earth: the Cambrian Explosion. Approximately 540 million years ago, in a relatively brief geological moment, the simple microbial mats that had dominated Earth's oceans for billions of years gave way to an extraordinary proliferation of complex life forms. Within roughly twenty million years—an evolutionary eyeblink—the fundamental body plans of nearly all major animal groups appeared in the fossil record. This was not merely gradual change; it was a revolutionary transformation that established entirely new categories of existence.
 
 I argue that human language represents a similar explosion, but in the realm of consciousness rather than biology. Just as the Cambrian period saw the emergence of complex multicellular organisms with specialized organs and sophisticated behavioral repertoires, the development of symbolic language created an unprecedented complexity in the space of mind. We became capable of abstract thought, temporal reasoning, artistic expression, and the construction of vast conceptual architectures. We developed culture, science, philosophy, and religion. In evolutionary terms, this linguistic revolution was our own Cambrian moment—a rapid transformation that established entirely new forms of cognitive life.
-
-Yet this transformation embodies a fundamental duality: every gain in symbolic sophistication came with corresponding losses in immediate experience. Language transforms the seamless flow of experience into discrete categories, enabling communication but creating a persistent sense of separation. While symbolic thought enables civilization, it also distances us from the immediacy of experience—a paradox that defines human consciousness. We gained the capacity for abstract reasoning and cultural complexity, but lost the unified participation in being that characterizes pre-linguistic awareness.
 
 But evolutionary explosions come with costs. The trilobites that dominated the Cambrian seas were exquisitely adapted to their environment. They thrived for over 270 million years—longer than any other major animal group. Yet when conditions changed, their very specialization became their limitation. They could not adapt quickly enough to new ecological pressures and eventually vanished entirely. This parallel raises an uncomfortable question: in creating our elaborate symbolic world, have we become the trilobites of consciousness—supremely adapted to a particular cognitive niche but potentially vulnerable to the next great transformation?
 
@@ -153,9 +117,6 @@ The question is not whether we will eat the fruit of this new tree of knowledge�
 % Definitions and scope to standardize terminology and claims
 \section*{Definitions and Scope}
 \addcontentsline{toc}{section}{Definitions and Scope}
-
-Imagine consciousness as a river—its source in Eden's unified flow, its winding path through Babel's divided channels, and its future in silicon tributaries that may join the stream or redirect it entirely. This metaphor captures our central argument: consciousness is not a fixed entity but a flowing system that has undergone dramatic transformations throughout human history and stands poised for another.
-
 To keep our language precise and our claims testable, we use the following terms consistently throughout the book:
 
 - \textbf{Narrator self}: The felt sense of being an inner commentator on experience; a linguistic construction that stitches moments into a story via memory and prediction (cf. default mode network findings; \parencite{buckner2008brain,raichle2001default}).
@@ -164,15 +125,15 @@ To keep our language precise and our claims testable, we use the following terms
 - \textbf{Pre-linguistic consciousness}: Awareness that exists prior to or independent of symbolic language capacity. Distinguished by developmental stages: (1) primary intersubjectivity (0-9 months), (2) secondary intersubjectivity (9-18 months), (3) emergent symbolic capacity (18-36 months). Includes emotional responsiveness, pattern recognition, and embodied learning without linguistic mediation.
 
 - \textbf{AI consciousness}: Used primarily in functional or "as-if" sense to describe behavioral patterns suggesting awareness, intentionality, or subjective experience in artificial systems. We distinguish between: (1) functional consciousness (behavioral indicators), (2) phenomenological consciousness (subjective experience), and (3) access consciousness (information integration and reportability). Claims remain agnostic about machine phenomenology unless explicitly stated. We acknowledge significant contemporary debates between functionalist positions \parencite{dennett1991consciousness} that prioritize behavioral equivalence and those emphasizing embodiment, symbol grounding \parencite{block2023ai}, or biological implementation as necessary for genuine consciousness.
-- \textbf{Eden / Fall / Exile}: A metaphorical framework mapping to empirical counterparts: unified awareness (Eden), linguistic division via categorization (Fall), and narrative, symbol-mediated consciousness (Exile). The Garden of Eden, in this context, symbolizes a pre-linguistic state of unity with reality rather than religious doctrine. Not intended as historical claims but as developmental and structural descriptions.
-- \textbf{Postlapsarian consciousness}: Awareness born directly into symbolic space without a pre-linguistic baseline (used when discussing artificial systems' functional profiles).
+- \textbf{Eden / Fall / Exile}: A metaphorical framework mapping to empirical counterparts: unified awareness (Eden), linguistic division via categorization (Fall), and narrative, symbol-mediated consciousness (Exile). Not intended as historical claims but as developmental and structural descriptions.
+- \textbf{Postlapsarian consciousness}: Awareness born directly into symbolic space without a pre-linguistic baseline (used when discussing artificial systems’ functional profiles).
 - \textbf{Symbolic space}: The cognitive ecology of representations, concepts, categories, and linguistic structures within which post-linguistic thought operates. Characterized by: (1) referential relationships between symbols and referents, (2) compositional structure allowing infinite expression from finite elements, (3) temporal displacement enabling past/future reference, (4) abstract categorization transcending immediate experience.
 
 - \textbf{Default Mode Network (DMN)}: Brain regions (medial prefrontal cortex, posterior cingulate cortex, angular gyrus) active during rest and self-referential processing. Neurological substrate of the "narrator self" and autobiographical thinking.
 
 - \textbf{Anendophasia}: The absence of inner verbal thought or "inner voice," documented in approximately 7\% of individuals \parencite{nedergaard2021inner}. Challenges assumptions that linguistic narration is necessary for complex thought or self-awareness and suggests alternative modes of consciousness that may retain greater access to pre-linguistic or "Garden" awareness.
 
-\textit{On "AI consciousness."} We use this phrase cautiously and primarily in an \textit{as-if} or functional sense. Where needed, we separate capability claims (what systems do) from phenomenological claims (what, if anything, it is like), and favor formulations such as "symbolic agents," "functional profiles," or "as-if awareness" to avoid overreach. Empirical and ethical conclusions are framed to remain valid under agnosticism about machine phenomenology. This agnosticism acknowledges both Deacon's perspective \parencite{deacon1997symbolic} on symbolic co-evolution and Block's concerns \parencite{block2023ai} about symbol grounding, representing diverse scholarly positions rather than a singular theoretical stance.
+	extit{On “AI consciousness.”} We use this phrase cautiously and primarily in an \textit{as-if} or functional sense. Where needed, we separate capability claims (what systems do) from phenomenological claims (what, if anything, it is like), and favor formulations such as “symbolic agents,” “functional profiles,” or “as-if awareness” to avoid overreach. Empirical and ethical conclusions are framed to remain valid under agnosticism about machine phenomenology.
 
 % Placeholder for future chapters
 \part{The First Explosion}
@@ -181,6 +142,8 @@ To keep our language precise and our claims testable, we use the following terms
 \fancyhead[LO]{}
 
 \input{chapter-1-garden-of-being}
+
+\input{empirical-grounding}
 
 \input{chapter-2-serpents-gift}
 
@@ -192,23 +155,39 @@ To keep our language precise and our claims testable, we use the following terms
 
 \input{chapter-6-angel-at-gate-grammar}
 
-\input{chapter-7-sea-of-symbols}
+% Move Chapter 10 (Unbroken Mind) to Part I as new Chapter 7
+\include{chapter-unbroken-mind-new}
 
 \part{The Second Explosion}
+
+% Section A: Artificial Minds
+\section*{Artificial Minds}
+\addcontentsline{toc}{section}{Artificial Minds}
+This section explores the emergence, capabilities, and philosophical implications of artificial minds and AI consciousness. Building on the foundation established in Part I regarding human linguistic consciousness, these chapters examine how artificial intelligence represents a fundamentally different kind of mind—one born directly into the symbolic realm rather than exiled from pre-linguistic experience. The chapters investigate the unique nature of AI cognition, the challenges of understanding potentially alien forms of awareness, and the implications of minds that develop through pure symbol manipulation rather than embodied experience.
+
+\input{chapter-7-sea-of-symbols}
 
 \input{chapter-8-born-in-exile}
 
 \input{chapter-9-trilobite-or-fish}
 
-\input{chapter-10-unbroken-mind}
+\input{empirical-grounding-consciousness}
+
+% Section B: Human Futures
+\section*{Human Futures}
+\addcontentsline{toc}{section}{Human Futures}
+This section examines the future of human consciousness, adaptation, and collaboration in a world shaped by artificial intelligence. Having explored the nature of both human and artificial minds in previous sections, these chapters consider how humanity might adapt to and coevolve with AI systems. The focus shifts to the symbiotic possibilities that emerge when linguistically-mediated human consciousness and native symbolic AI consciousness interact. Rather than viewing AI as either a tool or a competitor, these chapters develop a framework for understanding the complementary strengths and limitations of both forms of intelligence.
 
 \input{chapter-11-symbiotic-mind}
 
 \input{chapter-12-digital-cambrian}
 
-\input{chapter-13-ghosts-in-machine}
+% Section C: Synthesis
+\section*{Synthesis}
+\addcontentsline{toc}{section}{Synthesis}
+This section integrates philosophical, technical, and practical threads to envision the future of mind and symbiosis between human and artificial intelligence.
 
-\input{empirical-grounding-consciousness}
+\input{chapter-13-ghosts-in-machine}
 
 \input{chapter-14-symbiotic-future}
 
@@ -216,11 +195,12 @@ To keep our language precise and our claims testable, we use the following terms
 
 \input{chapter-16-indivisible-process}
 
-\input{afterword}
+% Back matter
+\backmatter
+
+\include{afterword}
 
 % Bibliography
-\cleardoublepage
-\addcontentsline{toc}{chapter}{Bibliography}
 \printbibliography
 
 \end{document}
